@@ -88,16 +88,4 @@ El recorrido general de energía, control y datos puede resumirse así:
 - Incorporar memoria o compresión.
 - Mejorar el protocolo de transferencia.
 
-> [!WARNING]
-> La mejora de cámara corresponde principalmente a `pq_pl1`. No debe agregarse PL1 a la configuración PL2 sin comprobar espacio, masa, consumo, conexiones y compatibilidad con el ensamblaje.
 
-## Integrantes
-
-```text
-Institución:
-Carrera:
-Materia o proyecto:
-Integrantes:
-Docentes:
-Año:
-```
