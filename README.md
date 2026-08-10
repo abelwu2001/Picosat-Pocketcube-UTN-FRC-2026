@@ -19,17 +19,17 @@ Este repositorio reúne la documentación, los diseños electrónicos y los resu
 
 ### Placas y elementos principales
 
-| Carpeta o placa | Función principal | Uso en la configuración PL2 |
+| Carpeta o placa | Función principal | Uso en la configuración |
 |---|---|---|
 | `pq_obc_comms` | Computadora de a bordo y comunicación LoRa | Se utiliza |
 | `pq_eps` | Gestión de energía, MPPT, batería y distribución de tensiones | Se utiliza |
-| `pq_adcs` | Determinación y control de actitud | Se utiliza |
+| `pq_adcs` | Determinación y control de actitud | A seleccionar (hay dos para eligir) |
 | `pq_ymag_board` | Magnetorquer del eje Y | Se utiliza |
 | `pq_latboard` | Placas laterales con panel solar y sensores; una incorpora la antena | Se utilizan varias unidades |
 | `pq_botboard` | Placa inferior, panel solar, batería, umbilical y *killswitches* | Se utiliza |
 | `pq_botnotsobot` | Placa inferior deslizante o estructural del conjunto | Se utiliza |
-| `pq_pl1` | Payload de cámara VGA | No se utiliza con PL2 |
-| `pq_pl2` | Payload de detección RFI en banda L | Payload seleccionado |
+| `pq_pl1` | Payload de cámara VGA | A seleccionar |
+| `pq_pl2` | Payload de detección RFI en banda L | A seleccionar |
 | `pq_topboard` | Placa superior genérica | Alternativa al payload, según la configuración |
 | `pq_egse` | Equipo eléctrico de apoyo y pruebas en tierra | No vuela |
 | `assembly` | Modelos y archivos del ensamblaje mecánico | Solo documentación/diseño |
