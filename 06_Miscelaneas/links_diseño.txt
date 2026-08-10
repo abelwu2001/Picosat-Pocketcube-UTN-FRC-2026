@@ -1,0 +1,31 @@
+
+Diseño PCB
+-----------
+https://github.com/orgs/nanosatlab/repositories?utm_source=chatgpt.com
+
+PAE Quadrimestre Tardor (QT) 2025 - On-Board Computer Software (OBC-sw) 
+
+IEEE PocketQubes 
+
+pocat-lektron-sw: Software developed by the IEEE GRSS Open PocketQube kit developed at the UPC NanoSat Lab. The software is also used by the PoCat-Lektron mission that is composed by PoCat-2 and PoCat-3. 
+
+pocat-lektron-arduinoGS
+
+tinyGS-antenna
+
+reflow-oven
+
+------------------------------------------------------------------------------
+
+Software
+--------
+
+https://github.com/nanosatlab/pocat-lektron-sw?utm_source=chatgpt.com
+
+
+
+
+------------------------------------------------------------------------------
+
+Usan el STM32L476RGTX
+
