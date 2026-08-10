@@ -34,6 +34,8 @@ Este repositorio reúne la documentación, los diseños electrónicos y los resu
 | `pq_egse` | Equipo eléctrico de apoyo y pruebas en tierra | No vuela |
 | `assembly` | Modelos y archivos del ensamblaje mecánico | Solo documentación/diseño |
 
+> [!WARNING]
+> Puede cambiar.
 
 ## Orden funcional del sistema
 
@@ -88,4 +90,14 @@ El recorrido general de energía, control y datos puede resumirse así:
 - Incorporar memoria o compresión.
 - Mejorar el protocolo de transferencia.
 
+## Links de trabajo 
+
+> [!NOTE]
+> **Links**
+>
+> ```text
+> Note one:
+> Trello: 
+> Drive:
+> ```
 
