@@ -58,8 +58,6 @@ como componentes independientes.
 
 ## Cableado e interconexiones
 
-## Cableado e interconexiones
-
 | ID | From | Num. of cables | Connector | To | Num. of cables | Connector | Length (mm) |
 |---:|---|---:|---|---|---:|---|---:|
 | 1 | Lat +Z | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | |
