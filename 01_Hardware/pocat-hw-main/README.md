@@ -18,26 +18,32 @@ el armado de la plataforma PocketQube.
 
 # 1. PLACAS PCB
 
+
 ## 1.1 Placas del PocketQube
 
-| Cantidad | Placa | Función |
+| **Cantidad** | **Placa** | **Función** |
 |---:|---|---|
-| 1 | PQ_ADCS_HBridge | Attitude Determination and Control System |
-| 1 | PQ_EPS | Electrical Power System |
-| 1 | pq_obc_comms | OBC + comunicaciones |
-| 1 | pq_topboard | Cara superior / interfaz estructural |
-| 1 | pq_botboard | Cara inferior |
-| 4 | pq_latboard | Cuatro caras laterales: +X, -X, +Z y -Z |
-| 1 | PQ_MagYBoard | Magnetorquer interno del eje +Y |
-| 1 | pq_botnotsobot | Sliding/deployment board |
-| **11** | **Total PCBs del conjunto** | Sin contar payload custom |
+| 1 | **PQ_ADCS_HBridge** | Control de actitud: recibe sensores y maneja los magnetorquers mediante puentes H. |
+| 1 | **PQ_EPS** | Sistema de potencia: recibe energía solar, carga la batería y distribuye las tensiones del satélite. |
+| 1 | **pq_obc_comms** | Computadora principal + comunicaciones por radio con tierra. |
+| 1 | **pq_topboard** | Cara superior estructural e interfaz de la zona del payload. |
+| 1 | **pq_botboard** | Cara inferior; integra celda solar, sensores y un magnetorquer PCB. |
+| 4 | **pq_latboard** | Caras laterales +X, -X, +Z y -Z. Integran celda solar, sensores y magnetorquer; una lleva además la antena COMMS. |
+| 1 | **PQ_MagYBoard** | Magnetorquer interno dedicado al eje +Y. |
+| 1 | **pq_botnotsobot** | Placa mecánica asociada al sliding/deployer y al sistema de despliegue. |
+| **11** | **Total PCBs del conjunto** | Sin contar payload custom ni EGSE. |
 
-Una de las cuatro `pq_latboard` se utiliza como lateral de
-comunicaciones y lleva además el sistema de antena.
+### Magnetorquers
 
-Los magnetorquers de los laterales y de la cara inferior están
-implementados mediante las propias pistas/bobinas de PCB, por
-lo que no se compran como magnetorquers independientes.
+El PocketQube utiliza **6 magnetorquers**:
+
+- 4 integrados en las `pq_latboard`
+- 1 integrado en la `pq_botboard`
+- 1 en la `PQ_MagYBoard`
+
+Los magnetorquers integrados en las placas se forman mediante
+pistas/bobinas de cobre del propio PCB, por lo que no se compran
+como componentes independientes.
 
 ## 1.2 Placa de soporte en tierra
 
