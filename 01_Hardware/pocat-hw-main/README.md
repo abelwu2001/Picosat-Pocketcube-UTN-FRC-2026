@@ -58,7 +58,27 @@ como componentes independientes.
 
 ## Cableado e interconexiones
 
+## Cableado e interconexiones
 
+| ID | From | Num. of cables | Connector | To | Num. of cables | Connector | Length (mm) |
+|---:|---|---:|---|---|---:|---|---:|
+| 1 | Lat +Z | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | |
+| 2 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | |
+| 3 | Lat -Z | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | |
+| 4 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | |
+| 5 | Lat +X | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | |
+| 6 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | |
+| 7 | Lat -X | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | |
+| 8 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | |
+| 9 | Battery | 2 | PicoBlade | - | - | - | |
+| 10 | PCB Connector | 2 | PicoBlade | Bottom Board | 2 | PicoBlade | |
+| 11 | Battery Heater & NTC | 3 | PicoClasp | - | - | - | |
+| 12 | PCB Connector | 3 | PicoClasp | ADCS | 3 | PicoClasp | |
+| 13 | Umbilical | 8 | PicoBlade | PCB Connector | 8 | PicoBlade | |
+| 14 | Bottom Board | 15 | PicoBlade | PCB Connector | 15 | PicoBlade | |
+| 15 | PCB Connector | 15 | PicoBlade | ADCS | 15 | PicoClasp | |
+| 16 | Top Board | 9 | PicoBlade | PCB Connector | 9 | PicoBlade | |
+| 17 | PCB Connector | 9 | PicoBlade | ADCS | 9 | PicoClasp | |
 
 La EGSE no forma parte del hardware de vuelo. Se utiliza en banco
 para alimentación, mediciones, depuración e integración.
