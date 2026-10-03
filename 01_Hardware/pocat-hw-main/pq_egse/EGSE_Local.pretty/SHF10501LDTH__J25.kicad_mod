@@ -1,0 +1,339 @@
+(footprint "SHF10501LDTH__J25"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SHF-105-01-L-D-TH-1")
+	(tags "Connector")
+	(property "Reference" "J25"
+		(at 8.7946 4.663249 90)
+		(layer "F.SilkS")
+		(uuid "5a0932d1-6988-43bc-96f9-5ab2521b9dc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SHF-105-01-L-D-TH"
+		(at 2.54 -0.89 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2fb3d75e-ae95-4815-ae6a-e33a4f620a7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94e8fda3-488c-4101-b96a-a0ce56add680")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ".050\" Shrouded Terminal Strip For FFSD, through hole, dual row,  positions per row"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22d44444-c298-4cf3-99ea-9b669c99483c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "5.33"
+		(at 588.131351 -106.542151 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0529f652-e953-4c81-ac1d-8588ff4e22dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "SAMTEC"
+		(at 588.131351 -106.542151 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0546ba11-ebe2-4ea6-bafd-c2288b9e1c13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SHF-105-01-L-D-TH"
+		(at 588.131351 -106.542151 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3540b6f-7fb6-4c55-ba75-24d6fc174c7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "200-SHF10501LDTH"
+		(at 588.131351 -106.542151 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eec3a1cc-50d3-4595-be55-85b519465d43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SHF-105-01-L-D-TH?qs=92ilVni64gw13%252BsAItGYwA%3D%3D"
+		(at 588.131351 -106.542151 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "228335de-be5b-4c50-ac2d-83c6044e45fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "EGSE.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.81 -3.685)
+		(end -3.81 1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "468ea4bd-426d-46a6-a84f-47d4c7359144")
+	)
+	(fp_line
+		(start -3.81 1.905)
+		(end 8.89 1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48d18dcc-8547-4129-967f-b5edf0fda41e")
+	)
+	(fp_line
+		(start 8.89 -3.685)
+		(end -3.81 -3.685)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96fdc0be-8a98-4371-9c9e-4c57740725fb")
+	)
+	(fp_line
+		(start 8.89 1.905)
+		(end 8.89 -3.685)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e7fc2d9-371f-418b-bc0d-95a4dd28fea4")
+	)
+	(fp_line
+		(start -4.81 -4.685)
+		(end 9.89 -4.685)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8985e61-281a-4470-bf2d-fb23b4aee236")
+	)
+	(fp_line
+		(start -4.81 2.905)
+		(end -4.81 -4.685)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e98aead1-ba61-442a-b061-929302916ee9")
+	)
+	(fp_line
+		(start 9.89 -4.685)
+		(end 9.89 2.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56351e22-c51b-4267-a0ce-b7515f12f8e3")
+	)
+	(fp_line
+		(start 9.89 2.905)
+		(end -4.81 2.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34a7bdfb-18d3-429a-9900-1586dfd14260")
+	)
+	(fp_line
+		(start -3.81 -3.685)
+		(end 8.89 -3.685)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79e70de1-e4d0-433e-9d6c-c27f87160664")
+	)
+	(fp_line
+		(start -3.81 1.905)
+		(end -3.81 -3.685)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d810390a-2a1d-4e2b-8f78-db012ec7175c")
+	)
+	(fp_line
+		(start 8.89 -3.685)
+		(end 8.89 1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8807058d-280a-4c22-b6cd-e9cd59fb551b")
+	)
+	(fp_line
+		(start 8.89 1.905)
+		(end -3.81 1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b23dfdc-1c49-4712-bf01-bed3f33e5049")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -0.89 0)
+		(layer "F.Fab")
+		(uuid "98fdfc6b-7b76-4c47-ac6b-933acae08918")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1 1)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c32e4d7-03f9-4f96-8fae-9589562b44ec")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.27)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3969d562-9650-4d4b-9527-ff8cbd9a2d0b")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21242aeb-0e6c-405a-be50-b4e4de8f0e0c")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 -1.27)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a1db212-7399-44f1-873d-e63294bfdfb2")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 0)
+		(size 1 1)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "367cf623-4e5e-4f6f-ab82-0084c30b0cd6")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 -1.27)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37cfe49f-b5e6-402f-83c7-aa54e92ba4ea")
+	)
+	(pad "7" thru_hole circle
+		(at 3.81 0)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50740a7e-2900-4b3b-ae10-f41a82ef3c40")
+	)
+	(pad "8" thru_hole circle
+		(at 3.81 -1.27)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "592e8b4d-ef6f-4330-88d0-9469384592ab")
+	)
+	(pad "9" thru_hole circle
+		(at 5.08 0)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66a50954-d346-44f3-bbb2-380d9aeb739c")
+	)
+	(pad "10" thru_hole circle
+		(at 5.08 -1.27)
+		(size 0.94 0.94)
+		(drill 0.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc693d13-3be8-4472-8742-30bfaf9780f4")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\lidia\\Documents\\SamacSys_PCB_Library\\KiCad\\SamacSys_Parts.3dshapes\\SHF-105-01-L-D-TH.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

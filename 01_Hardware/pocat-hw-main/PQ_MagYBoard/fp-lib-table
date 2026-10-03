@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Recovered_Project")(type "KiCad")(uri "${KIPRJMOD}/Recovered_Project.pretty")(options "")(descr "Recovered board-instance snapshots; provenance in recovered-footprints.json"))
+)

@@ -1,0 +1,340 @@
+(footprint "HDRV10W64P0X254_1X10_2540X248X838P__J24"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "HTSW-110-07-G-S")
+	(tags "Connector")
+	(property "Reference" "J24"
+		(at 3.368492 0.005509 90)
+		(layer "F.SilkS")
+		(uuid "7843685b-36ea-41a1-bc85-fc72f754b216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "HTSW-110-07-G-S"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12dca147-9a4d-4753-9037-8e5434ebcb28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cfd31df-69aa-448b-81a7-16718d7dd00f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole Bulk"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3313f33-7065-4b88-ad60-98153e2f35af")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "8.38"
+		(at 478.988058 37.882646 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b221d11e-4598-499c-84a8-0b3b618e6d76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "SAMTEC"
+		(at 478.988058 37.882646 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e3caa98-cf7c-4f9c-a9aa-6c984cde73d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "HTSW-110-07-G-S"
+		(at 478.988058 37.882646 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af935cb9-539a-4583-958f-61a5e92441e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "200-HTSW11007GS"
+		(at 478.988058 37.882646 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c320a3d0-12e0-4b93-b7e6-dc17956e3c9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/HTSW-110-07-G-S?qs=0lQeLiL1qyY4qSdMhVu1cw%3D%3D"
+		(at 478.988058 37.882646 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af1a073c-caf3-4098-bb36-ebb9a173fa98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "EGSE.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -24.13 -1.24)
+		(end 1.27 -1.24)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4acd3b7d-5279-4348-aea9-1b92272f1b7f")
+	)
+	(fp_line
+		(start -24.13 1.24)
+		(end -24.13 -1.24)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "672091bd-3201-49a0-8a0e-e051268bcdde")
+	)
+	(fp_line
+		(start 0 1.24)
+		(end -24.13 1.24)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54900ec4-5fb6-4293-8abd-8ffd39818de1")
+	)
+	(fp_line
+		(start 1.27 -1.24)
+		(end 1.27 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efef42fa-da63-4287-8b8b-bddf825ab4e0")
+	)
+	(fp_line
+		(start -24.38 -1.49)
+		(end 1.52 -1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "654feba3-af7d-4c05-93b4-ab0497b4786c")
+	)
+	(fp_line
+		(start -24.38 1.49)
+		(end -24.38 -1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97605031-e592-4ee9-84e6-a1c1a71373ce")
+	)
+	(fp_line
+		(start 1.52 -1.49)
+		(end 1.52 1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf20a9ec-014e-4f4b-b58b-355fbda3c5cb")
+	)
+	(fp_line
+		(start 1.52 1.49)
+		(end -24.38 1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59e24af0-4b9a-4d17-a3dd-c8b3139c2204")
+	)
+	(fp_line
+		(start -24.13 -1.24)
+		(end 1.27 -1.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d03799d1-240d-4307-b767-1244577ac09f")
+	)
+	(fp_line
+		(start -24.13 1.24)
+		(end -24.13 -1.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "069ec5c3-7aae-446e-9215-d14ed655805b")
+	)
+	(fp_line
+		(start 1.27 -1.24)
+		(end 1.27 1.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59da0462-3fbe-4ecb-98cd-ebc386d3e348")
+	)
+	(fp_line
+		(start 1.27 1.24)
+		(end -24.13 1.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74ec564e-a6a9-4c99-98ac-3e3f4403ba93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b62085a0-63a2-4c73-b012-3438a4408306")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b94449c2-a086-4594-8fa6-336ffb4e074e")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce208acb-1b09-4d50-be0f-bd187bdad313")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b635edf1-393a-4905-8b18-89cea58b7056")
+	)
+	(pad "4" thru_hole circle
+		(at -7.62 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5697c60-f135-4d1d-97fb-e1c1773c121d")
+	)
+	(pad "5" thru_hole circle
+		(at -10.16 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88cfe90b-fe29-4efd-a44a-61f574787839")
+	)
+	(pad "6" thru_hole circle
+		(at -12.7 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a4f2795-949a-41db-95e6-5ca392519dfe")
+	)
+	(pad "7" thru_hole circle
+		(at -15.24 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a2267e7-22f7-4fbb-a9e9-b471b1ce2d5f")
+	)
+	(pad "8" thru_hole circle
+		(at -17.78 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69796ef4-2b35-45b4-a838-a9063eac6466")
+	)
+	(pad "9" thru_hole circle
+		(at -20.32 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c8d3755-a9d7-4fa0-8196-4f6fdd3f0963")
+	)
+	(pad "10" thru_hole circle
+		(at -22.86 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a584628a-d5a4-4a49-8181-d70252c35be9")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\lidia\\Documents\\SamacSys_PCB_Library\\KiCad\\SamacSys_Parts.3dshapes\\HTSW-110-07-G-S.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

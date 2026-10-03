@@ -1,0 +1,107 @@
+(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor")
+(symbol "SMM4F" (in_bom yes) (on_board yes)
+
+      (property "Reference" "D" (at 0 2.54 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "SMM4F" (at 0 -2.54 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "-nsl_passive:SMM4F15ATR" (at 1.27 6.35 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "SMM4F_0_1"
+
+        (polyline
+
+          (pts
+
+            (xy 1.27 0)
+
+            (xy -1.27 0)
+
+          )
+
+          (stroke (width 0) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy -1.27 -1.27)
+
+            (xy -1.27 1.27)
+
+            (xy -0.762 1.27)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 1.27 -1.27)
+
+            (xy 1.27 1.27)
+
+            (xy -1.27 0)
+
+            (xy 1.27 -1.27)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+      )
+
+      (symbol "SMM4F_1_1"
+
+        (pin passive line (at -3.81 0 0) (length 2.54)
+
+          (name "" (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 3.81 0 180) (length 2.54)
+
+          (name "" (effects (font (size 1.27 1.27))))
+
+          (number "2" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+)

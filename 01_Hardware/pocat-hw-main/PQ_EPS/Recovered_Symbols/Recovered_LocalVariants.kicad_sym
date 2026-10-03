@@ -1,0 +1,252 @@
+(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor")
+(symbol "1_1n_1" (in_bom yes) (on_board yes)
+
+      (property "Reference" "COUTSNS1" (at -14.0742 0.9812 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+
+      )
+
+      (property "Value" "1_1n_1" (at -5.1283 -4.0988 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+
+      )
+
+      (property "Footprint" "C0402" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "NAMEALIAS" "Value(F)" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "BOM_SUPPLIER PART" "81-GRM155R61A102KA1D" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "BOM_SUPPLIER" "Mouser" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "CONTRIBUTOR" "LCEDA_Lib" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "SPICEPRE" "C" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "SPICESYMBOLNAME" "C_0603_US" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "BOM_MANUFACTURER PART" "GRM155R61A102KA01D" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "BOM_MANUFACTURER" "Murata" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "BOM_LINK" "https://www.mouser.es/ProductDetail/Murata-Electronics/GRM155R61A102KA01D?qs=%2Fha2pyFadujIarpTQ7m9MAGr%252B4d4kXKhokzJiMozIqjkaJWzUA7U6QhDSqxdaZvG" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0402" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "1_1n_1_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.032 0.508)
+
+            (xy 2.032 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 -0.508)
+
+            (xy 0 -2.54)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 2.54)
+
+            (xy 0 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.032 -0.508)
+
+            (xy -2.032 -0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 0 5.08 270) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "GND_36" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Value" "GND_36" (at 0 -3.81 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "GND_36_0_1"
+
+        (polyline
+
+          (pts
+
+            (xy 0 0)
+
+            (xy 0 -1.27)
+
+            (xy 1.27 -1.27)
+
+            (xy 0 -2.54)
+
+            (xy -1.27 -1.27)
+
+            (xy 0 -1.27)
+
+          )
+
+          (stroke (width 0) (type default))
+
+          (fill (type none))
+
+        )
+
+      )
+
+      (symbol "GND_36_1_1"
+
+        (pin power_in line (at 0 0 270) (length 0) hide
+
+          (name "GND" (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+)

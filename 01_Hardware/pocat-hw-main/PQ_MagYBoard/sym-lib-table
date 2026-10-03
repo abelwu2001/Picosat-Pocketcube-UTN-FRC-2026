@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "-nsl_symbols")(type "KiCad")(uri "${KIPRJMOD}/Recovered_Symbols/-nsl_symbols.kicad_sym")(options "")(descr "Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json"))
+  (lib (name "Device")(type "KiCad")(uri "${KIPRJMOD}/Recovered_Symbols/Device.kicad_sym")(options "")(descr "Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json"))
+  (lib (name "Mechanical")(type "KiCad")(uri "${KIPRJMOD}/Recovered_Symbols/Mechanical.kicad_sym")(options "")(descr "Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json"))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/Recovered_Symbols/SamacSys_Parts.kicad_sym")(options "")(descr "Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json"))
+  (lib (name "symbols-nsl")(type "KiCad")(uri "${KIPRJMOD}/Recovered_Symbols/symbols-nsl.kicad_sym")(options "")(descr "Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json"))
+)

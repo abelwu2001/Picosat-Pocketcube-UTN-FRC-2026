@@ -1,0 +1,52 @@
+{
+  "schematic": "PQ_MagYBoard.kicad_sch",
+  "schematic_sha256": "0c91415a88c63a1e7c81272c64fe707a33b28155ea660635049e1acb1d261338",
+  "schematic_unchanged": true,
+  "provenance": "Snapshots from embedded lib_symbols. Existing electrical-symbol definitions are retained; not manufacturer or upstream validation.",
+  "original_table_sha256": "735506d700afafdf6e149d998a59fde63218e7ea6ee201f5feb5c879438bc520",
+  "original_table": "(sym_lib_table\n  (version 7)\n  (lib (name \"-nsl_symbols\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/-nsl_symbols.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"Device\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/Device.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"Mechanical\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/Mechanical.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"SamacSys_Parts\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/SamacSys_Parts.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"symbols-nsl\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/symbols-nsl.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n)\n",
+  "files": {
+    "-nsl_symbols.kicad_sym": "caf4bc50a5ba3151bbd19ac62fb7d88112f9765eded1a07bcd40cb717c488027",
+    "Device.kicad_sym": "7a8d6c46c111b717127e0f914de8fdb10e4d112c367c456e8412307bd5b664d8",
+    "Mechanical.kicad_sym": "0178d78b6f451ee85a2c8b1833b18701414b29f0da520fea2977027cd4d4b8c2",
+    "SamacSys_Parts.kicad_sym": "1e732aff7d128e4683907b963c154a404f0b506a8a47a813a3e7b5eef78d4330",
+    "symbols-nsl.kicad_sym": "caf4bc50a5ba3151bbd19ac62fb7d88112f9765eded1a07bcd40cb717c488027"
+  },
+  "symbols": [
+    {
+      "nickname": "-nsl_symbols",
+      "name": "Silkscreen_Annotation",
+      "source_name": "-nsl_symbols:Silkscreen_Annotation",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "09518e6c86f19274cbd6b854ec34302b8c99064d84c55955d3bf1735de4e52a5"
+    },
+    {
+      "nickname": "Device",
+      "name": "LED",
+      "source_name": "Device:LED",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "b91d7431ae87b2cea0e6350e5fdd678c7335a4798a05f28825bbeed54b382697"
+    },
+    {
+      "nickname": "Mechanical",
+      "name": "MountingHole",
+      "source_name": "Mechanical:MountingHole",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "cac620850b75b4f67e7c4fefb55831823197f917666f9eca451c0fcae365b1e2"
+    },
+    {
+      "nickname": "SamacSys_Parts",
+      "name": "M20-7810245",
+      "source_name": "SamacSys_Parts:M20-7810245",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "a409ee0e4f1c85ed1f00657dd1a8e102fada449ee529377e1b40efa49aec8924"
+    },
+    {
+      "nickname": "symbols-nsl",
+      "name": "Silkscreen_Annotation",
+      "source_name": "symbols-nsl:Silkscreen_Annotation",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "140b52bbbd8babb15849089a200c6fc9b046b350c410d25ac4b6d489c3f7ca43"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+(footprint "L2__ba5a3009"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "L2"
+		(at -1.9426 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fbfd71c0-fb45-4571-8d14-1d1cc198f6b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "10u"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffd2687f-b257-4c4d-ba13-d0e238dbf1b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "aa9f0c01-6ca9-4aeb-a75b-01903a9672d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "6b839779-5e82-4f50-95c5-f37be02adddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "BOM_LINK" "https://www.mouser.es/ProductDetail/Murata-Electronics/LQH2MPZ100MGRL?qs=%2Fha2pyFadujNeBM88VXeIkyeCVOdZwPYMSnBoH4Poq2Ed6E9g5k6LDOibd7XTces"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf0e465b-7e20-45fd-8ab5-657906a3ba29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER" "Murata"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67c96a9a-105b-45bc-b7a5-248d4cc3c17a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER PART" "LQH2MPZ100MGRL"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddfd360d-f552-4d74-a0b2-b33f80bf8aed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER" "Mouser"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6c613c7-95c7-4617-94db-0fe2f1601a13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER PART" "81-LQH2MPZ100MGRL"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d679f05a-938a-4f2a-a06f-4cb429178eac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTRIBUTOR" "LCEDA_Lib"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c43fb03-0f92-40e4-9cc5-39c2d50d210f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer 1" "Murata"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4175e1ca-dd39-4008-baea-1821af7ecf86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number 1" "LQH2MPZ100MGRL"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c1f29ba-92f1-4b07-aa46-19e8aecdf5bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NAMEALIAS" "Value(H)"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bcdc205-5c64-424a-a2b4-26030754907d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICEPRE" "L"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88bff126-bb2a-429c-9f9b-549417ddd875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICESYMBOLNAME" "L0603_US"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b839326e-394f-40bf-9b81-03a719a930d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier 1" "Mouser"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bf1b860-3a62-4406-8a71-23ec6d4ee793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number 1" "81-LQH2MPZ100MGRL"
+		(at 226.75 -108.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a219de3c-f00d-4ba3-b8a7-923c409ae067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "PQ_EPS.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.399622 -0.56)
+		(end 0.399622 -0.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "052a29c8-8e3f-42ba-aafa-1141f707f66c")
+	)
+	(fp_line
+		(start -0.399622 0.56)
+		(end 0.399622 0.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46a8ea58-27b0-462d-b2bd-74d93e07d1cc")
+	)
+	(fp_line
+		(start -1.75 -0.85)
+		(end 1.75 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55462b2e-fad0-450d-b0de-a0312bef7f65")
+	)
+	(fp_line
+		(start -1.75 0.85)
+		(end -1.75 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "173501cf-dfe7-4abb-8510-e272ad85b0c5")
+	)
+	(fp_line
+		(start 1.75 -0.85)
+		(end 1.75 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f47fc29-d91b-4554-8c1b-8501a8377c0a")
+	)
+	(fp_line
+		(start 1.75 0.85)
+		(end -1.75 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28122cbc-9651-4c38-b461-00d830b94713")
+	)
+	(fp_line
+		(start -1 -0.45)
+		(end 1 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd93d513-6ed9-41fc-8e03-1e12db47cce6")
+	)
+	(fp_line
+		(start -1 0.45)
+		(end -1 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6977129-6224-452f-b86b-4db2efe7fff1")
+	)
+	(fp_line
+		(start 1 -0.45)
+		(end 1 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "269044ab-17cd-4644-8831-ea1979abe42c")
+	)
+	(fp_line
+		(start 1 0.45)
+		(end -1 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d579e3b9-79d6-4007-961e-ade9b4a736dd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0f7b55d2-3afc-46da-8a4c-b6219a584ba2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.0625 0)
+		(size 0.875 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3b208af3-67fc-4a3f-9620-6b78a640ed57")
+	)
+	(pad "2" smd roundrect
+		(at 1.0625 0)
+		(size 0.875 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3f0801de-a44c-4e81-8453-33d173145c91")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

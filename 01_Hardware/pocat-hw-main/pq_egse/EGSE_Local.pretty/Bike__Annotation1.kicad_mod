@@ -1,0 +1,215 @@
+(footprint "Bike__Annotation1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "Annotation1"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3f836986-cb50-494d-8042-e0ace8dea02c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "Silkscreen_Annotation"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93731cff-534c-451a-81d7-b9973f62caa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0def4b64-8f07-451a-a805-a3fef534f9d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1360d50-4e1f-4a1c-9d65-88168fcac79e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Field4" "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f6a67be-fbff-4356-b799-9bb3ceb33dad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "pq_obc_comms.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.3 -5.6)
+		(end -0.1 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83f2a69a-b379-4ff4-a3bc-c86800658eff")
+	)
+	(fp_line
+		(start 0.3 -5.2)
+		(end 1.6 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffa7ff21-4659-430d-8f01-31e9d42c3938")
+	)
+	(fp_line
+		(start 0.3 -5.2)
+		(end 2 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eba372f5-c6d8-4fd2-a4de-2339b0eb3db8")
+	)
+	(fp_line
+		(start 0.3 -3.9)
+		(end 0.3 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52278793-02eb-4de0-8fc8-56f6cf95377c")
+	)
+	(fp_line
+		(start 1.6 -3.9)
+		(end 3.3 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c7a88ed-6b75-442d-b782-796fceea5eb6")
+	)
+	(fp_line
+		(start 1.8 -3.2)
+		(end 2.2 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7a16edc-8b85-403b-a420-d95bbb9523cf")
+	)
+	(fp_line
+		(start 2 -5.8)
+		(end 2 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e18077c6-d039-4869-8a9d-e2f861bc3357")
+	)
+	(fp_line
+		(start 2 -5.2)
+		(end 3.3 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "033cd55b-4f0f-4fe8-a23b-e4ae42d6154c")
+	)
+	(fp_line
+		(start 2 -3.5)
+		(end 2 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "365146c6-3a8e-4041-9436-5cbe9c9438bf")
+	)
+	(fp_line
+		(start 2.2 -5.8)
+		(end 1.6 -5.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c759bf8-af9f-4c13-8c46-77b1771fe57c")
+	)
+	(fp_arc
+		(start -0.1 -5.2)
+		(mid -0.3 -5.4)
+		(end -0.1 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23cfa918-a6be-4eb7-82e4-6e6639ab1151")
+	)
+	(fp_circle
+		(center 0.3 -3.9)
+		(end 1.007107 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "36d84191-b921-4966-b9c0-327cd1e75bc3")
+	)
+	(fp_circle
+		(center 2 -3.7)
+		(end 2.2 -3.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a18aa03c-f4de-45ab-aff8-ba3dc8180803")
+	)
+	(fp_circle
+		(center 3.3 -3.9)
+		(end 4.007107 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "24431e03-774b-4016-a502-6b3b88228a29")
+	)
+	(embedded_fonts no)
+)

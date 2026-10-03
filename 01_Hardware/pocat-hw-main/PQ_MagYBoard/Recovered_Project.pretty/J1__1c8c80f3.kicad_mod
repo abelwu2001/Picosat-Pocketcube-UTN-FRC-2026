@@ -1,0 +1,454 @@
+(footprint "J1__1c8c80f3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "M20-7810245-1")
+	(tags "Connector")
+	(property "Reference" "J1"
+		(at -3.831 -0.021 90)
+		(layer "F.SilkS")
+		(uuid "a4fd383f-bae7-4aaa-909b-eca3f083594c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "M20-7810245"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d513f4d2-9b6d-4e2b-a6bc-fc01f2dda8ac")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-781.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc886409-c44c-4c20-8efa-d2ce974edbad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "2.54mm (0.1\") Pitch DIL SMT Dual Entry Socket Assembly, with locating pegs, selective gold + tin, 2+2 contacts"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "026cabb9-339d-4bcc-8279-bc96c80b85d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "648c77af-fcb8-4850-aed5-b1c4408679d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1c49264-2cda-4da4-a83c-15c8c780bc07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "4"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcf69af6-7332-47c0-828e-8b4a1393ab52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer 1" "Harwin"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83047144-9422-47d7-a110-3f28575c3337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number 1" "M20-7810245"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bcc961f-d469-49c0-97ba-26c91f49a045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Harwin"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19915e8e-32cd-4bfe-a707-eb27f91926d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "M20-7810245"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "162a90e2-0378-432c-8020-b0907e9ce910")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "855-M20-7810245"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f918d02-92a2-4272-8260-98028ea4e867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7810245?qs=k41KVqW3ymrmTWhlQaDKTQ%3D%3D"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1148a20-262a-4d89-b054-2b52f9365b08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Testing Part Number" ""
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58e354b6-1198-44fb-8d3c-a2a7256b74d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Testing Price/Stock" ""
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f62cb67f-e2a2-4e66-a2ae-9c523a3f871d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier 1" "Mouser"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac371843-95db-41b1-af43-b2bf7306426d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number 1" "855-M20-7810245"
+		(at 161.224 -42.272 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e3bc889-5da6-465d-b3af-575fbfa35fee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "PQ_MagYBoard.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.54 -2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7126063f-720d-407a-8143-6b459e47bad2")
+	)
+	(fp_line
+		(start -1.27 -4.3)
+		(end -1.27 -4.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6093450d-831a-42c7-a8b0-2609d2c0ebd7")
+	)
+	(fp_line
+		(start -1.27 -4.2)
+		(end -1.27 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35a648de-9788-4bb1-89a8-61846eec4762")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f354473-d6b8-4f9c-9797-26a8f1d3ac04")
+	)
+	(fp_arc
+		(start -1.27 -4.3)
+		(mid -1.22 -4.25)
+		(end -1.27 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7153a2ca-5c22-4627-bb28-fa6f34409eec")
+	)
+	(fp_arc
+		(start -1.27 -4.2)
+		(mid -1.32 -4.25)
+		(end -1.27 -4.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb4c2d5e-501b-4a72-bee4-384c3481f63e")
+	)
+	(fp_poly
+		(pts
+			(xy -1.958579 -2.44) (xy -2.581421 -2.44) (xy -2.64 -2.498579) (xy -2.64 -2.581421) (xy -2.581421 -2.64)
+			(xy -1.958579 -2.64) (xy -1.95 -2.631421) (xy -1.95 -2.448579)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "665dd2db-fff6-492b-8bd6-daa4dd91e3bb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.958579 2.64) (xy -2.581421 2.64) (xy -2.64 2.581421) (xy -2.64 2.498579) (xy -2.581421 2.44)
+			(xy -1.958579 2.44) (xy -1.95 2.448579) (xy -1.95 2.631421)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2aeba532-4a3e-4666-aa0c-faa3e714d0cf")
+	)
+	(fp_poly
+		(pts
+			(xy 2.581421 -2.44) (xy 1.958579 -2.44) (xy 1.950001 -2.448579) (xy 1.950001 -2.631421) (xy 1.958579 -2.64)
+			(xy 2.581421 -2.64) (xy 2.64 -2.581421) (xy 2.64 -2.498579)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c8ee848d-c9f0-4370-9b35-80a61235f96d")
+	)
+	(fp_poly
+		(pts
+			(xy 2.581421 2.64) (xy 1.958579 2.64) (xy 1.950001 2.631421) (xy 1.950001 2.448579) (xy 1.958579 2.44)
+			(xy 2.581421 2.44) (xy 2.64 2.498579) (xy 2.64 2.581421)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "903f7a8c-1736-46e6-910d-ad37bfc4a7c1")
+	)
+	(fp_line
+		(start -3.54 -4.8)
+		(end 3.54 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e33f52c9-4d40-4454-8d96-0d3b8ceab486")
+	)
+	(fp_line
+		(start -3.54 4.8)
+		(end -3.54 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "108fb7e7-be5f-4bb3-8ad8-409d47652b90")
+	)
+	(fp_line
+		(start 3.54 -4.8)
+		(end 3.54 4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ebecf7f-c31f-47f4-8e18-4b10e78a3e17")
+	)
+	(fp_line
+		(start 3.54 4.8)
+		(end -3.54 4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "682fac71-cf3b-4a55-9f37-29fff231c28b")
+	)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 2.54 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5070d18b-57c4-47d0-aef7-bbdb56668c07")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b70999b-4a35-49dd-8403-8364e46873d4")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "826604c1-883b-4bc6-b55c-59ac2cf7a352")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "182bb2e6-0377-4ac1-b878-4f4f5671c060")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 0 0)
+		(layer "F.Fab")
+		(uuid "84b646d3-0489-4834-aa1d-86a6b00671e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 -2.91)
+		(size 1.02 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dd2d4817-4ac5-4fe0-9905-20d96b61780d")
+	)
+	(pad "2" smd rect
+		(at -1.27 2.91)
+		(size 1.02 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64258288-63cb-4fb0-8e2c-f8d2e7013571")
+	)
+	(pad "3" smd rect
+		(at 1.27 -2.91)
+		(size 1.02 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5315fae9-b4f6-4be0-8149-b56e386fb537")
+	)
+	(pad "4" smd rect
+		(at 1.27 2.91)
+		(size 1.02 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eb4a461d-c4cb-46aa-bce9-20fea8bd1edb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_NSL_DIR}/connector-nsl/StepFiles/M20-7810245.stp"
+		(offset
+			(xyz -1.25 0 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

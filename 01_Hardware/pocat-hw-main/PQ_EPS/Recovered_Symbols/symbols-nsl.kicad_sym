@@ -1,0 +1,51 @@
+(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor")
+(symbol "Silkscreen_Annotation" (in_bom yes) (on_board yes)
+
+      (property "Reference" "Annotation" (at 3.81 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "Silkscreen_Annotation" (at 8.89 2.54 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "Silkscreen_Annotation_0_0"
+
+        (text "Text" (at 1.905 5.715 0)
+
+          (effects (font (size 1.27 1.27)))
+
+        )
+
+      )
+
+      (symbol "Silkscreen_Annotation_0_1"
+
+        (rectangle (start -1.27 6.985) (end 5.08 4.445)
+
+          (stroke (width 0) (type default))
+
+          (fill (type none))
+
+        )
+
+      )
+
+    )
+)

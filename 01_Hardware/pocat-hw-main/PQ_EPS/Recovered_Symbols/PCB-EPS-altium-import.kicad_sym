@@ -1,0 +1,1475 @@
+(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor")
+(symbol "0_100u" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "0_100u" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C1206" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "0_100u_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -0.508 -2.032)
+
+            (xy -0.508 2.032)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy -0.508 0)
+
+            (xy -2.54 0)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0.508 2.032)
+
+            (xy 0.508 -2.032)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.54 0)
+
+            (xy 0.508 0)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at -5.08 0 0) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 5.08 0 180) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "0_DS2782E+" (in_bom yes) (on_board yes)
+
+      (property "Reference" "IC1" (at -0.3201 -13.2504 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+
+      )
+
+      (property "Value" "DS2782E+" (at -2.9794 -10.7104 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+
+      )
+
+      (property "Footprint" "SOP65P640X110-8N" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "SPICEPRE" "I" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "SPICESYMBOLNAME" "DS2782E+" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "BOM_MANUFACTURER PART" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+
+      )
+
+      (property "ki_fp_filters" "SOP65P640X110-8N" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "0_DS2782E+_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -8.7148 6.096)
+
+            (xy -8.7148 -6.604)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy -8.7148 6.096)
+
+            (xy 9.0652 6.096)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 9.0652 -6.604)
+
+            (xy -8.7148 -6.604)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 9.0652 -6.604)
+
+            (xy 9.0652 6.096)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at -13.97 3.81 0) (length 5.08)
+
+          (name "N.C." (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -13.97 1.27 0) (length 5.08)
+
+          (name "VSS" (effects (font (size 1.27 1.27))))
+
+          (number "2" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -13.97 -1.27 0) (length 5.08)
+
+          (name "VIN" (effects (font (size 1.27 1.27))))
+
+          (number "3" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -13.97 -3.81 0) (length 5.08)
+
+          (name "VDD" (effects (font (size 1.27 1.27))))
+
+          (number "4" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 13.97 -3.81 180) (length 5.08)
+
+          (name "SDA" (effects (font (size 1.27 1.27))))
+
+          (number "5" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 13.97 -1.27 180) (length 5.08)
+
+          (name "SCL" (effects (font (size 1.27 1.27))))
+
+          (number "6" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 13.97 1.27 180) (length 5.08)
+
+          (name "SNS" (effects (font (size 1.27 1.27))))
+
+          (number "7" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 13.97 3.81 180) (length 5.08)
+
+          (name "PIO" (effects (font (size 1.27 1.27))))
+
+          (number "8" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+(symbol "0_LTC4040EUFD#PBF" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "0_LTC4040EUFD#PBF" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "VQFN-24_L5.0-W4.0-P0.50-BL-EP" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "0_LTC4040EUFD#PBF_1_0"
+
+        (rectangle (start 15.24 17.78) (end -15.24 -17.78)
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at -17.78 7.62 0) (length 2.54)
+
+          (name "VSYS" (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 0 -20.32 90) (length 2.54)
+
+          (name "RSTFB" (effects (font (size 1.27 1.27))))
+
+          (number "10" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 2.54 -20.32 90) (length 2.54)
+
+          (name "RST#" (effects (font (size 1.27 1.27))))
+
+          (number "11" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 5.08 -20.32 90) (length 2.54)
+
+          (name "F2" (effects (font (size 1.27 1.27))))
+
+          (number "12" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 17.78 -7.62 180) (length 2.54)
+
+          (name "F1" (effects (font (size 1.27 1.27))))
+
+          (number "13" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 17.78 -5.08 180) (length 2.54)
+
+          (name "F0" (effects (font (size 1.27 1.27))))
+
+          (number "14" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 17.78 -2.54 180) (length 2.54)
+
+          (name "IGATE" (effects (font (size 1.27 1.27))))
+
+          (number "15" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 17.78 0 180) (length 2.54)
+
+          (name "OVSNS" (effects (font (size 1.27 1.27))))
+
+          (number "16" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 17.78 2.54 180) (length 2.54)
+
+          (name "NTC" (effects (font (size 1.27 1.27))))
+
+          (number "17" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 17.78 5.08 180) (length 2.54)
+
+          (name "BSTFB" (effects (font (size 1.27 1.27))))
+
+          (number "18" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 17.78 7.62 180) (length 2.54)
+
+          (name "PFI" (effects (font (size 1.27 1.27))))
+
+          (number "19" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -17.78 5.08 0) (length 2.54)
+
+          (name "PROG" (effects (font (size 1.27 1.27))))
+
+          (number "2" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 5.08 20.32 270) (length 2.54)
+
+          (name "PF0#" (effects (font (size 1.27 1.27))))
+
+          (number "20" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 2.54 20.32 270) (length 2.54)
+
+          (name "SW" (effects (font (size 1.27 1.27))))
+
+          (number "21" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 0 20.32 270) (length 2.54)
+
+          (name "SW" (effects (font (size 1.27 1.27))))
+
+          (number "22" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -2.54 20.32 270) (length 2.54)
+
+          (name "BAT" (effects (font (size 1.27 1.27))))
+
+          (number "23" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -5.08 20.32 270) (length 2.54)
+
+          (name "VSYS" (effects (font (size 1.27 1.27))))
+
+          (number "24" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -7.62 20.32 270) (length 2.54)
+
+          (name "EPAD" (effects (font (size 1.27 1.27))))
+
+          (number "25" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -17.78 2.54 0) (length 2.54)
+
+          (name "CLPROG" (effects (font (size 1.27 1.27))))
+
+          (number "3" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -17.78 0 0) (length 2.54)
+
+          (name "CHGOFF" (effects (font (size 1.27 1.27))))
+
+          (number "4" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -17.78 -2.54 0) (length 2.54)
+
+          (name "BSTOFF" (effects (font (size 1.27 1.27))))
+
+          (number "5" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -17.78 -5.08 0) (length 2.54)
+
+          (name "VIN" (effects (font (size 1.27 1.27))))
+
+          (number "6" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -17.78 -7.62 0) (length 2.54)
+
+          (name "CLN" (effects (font (size 1.27 1.27))))
+
+          (number "7" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -5.08 -20.32 90) (length 2.54)
+
+          (name "CHRG#" (effects (font (size 1.27 1.27))))
+
+          (number "8" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -2.54 -20.32 90) (length 2.54)
+
+          (name "FAULT#" (effects (font (size 1.27 1.27))))
+
+          (number "9" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+(symbol "0_SPV1040TTR" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "0_SPV1040TTR" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "TSSOP-8_L4.4-W3.0-P0.65-LS6.4-BL" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "0_SPV1040TTR_1_0"
+
+        (rectangle (start 12.7 7.62) (end -12.7 -5.08)
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at -15.24 5.08 0) (length 2.54)
+
+          (name "MPP-SET" (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -15.24 2.54 0) (length 2.54)
+
+          (name "GND" (effects (font (size 1.27 1.27))))
+
+          (number "2" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -15.24 0 0) (length 2.54)
+
+          (name "LX" (effects (font (size 1.27 1.27))))
+
+          (number "3" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -15.24 -2.54 0) (length 2.54)
+
+          (name "VOUT" (effects (font (size 1.27 1.27))))
+
+          (number "4" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 15.24 -2.54 180) (length 2.54)
+
+          (name "VCTRL" (effects (font (size 1.27 1.27))))
+
+          (number "5" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 15.24 0 180) (length 2.54)
+
+          (name "ICTRL-MINUS" (effects (font (size 1.27 1.27))))
+
+          (number "6" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 15.24 2.54 180) (length 2.54)
+
+          (name "ICTRL-PLUS" (effects (font (size 1.27 1.27))))
+
+          (number "7" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 15.24 5.08 180) (length 2.54)
+
+          (name "XSHUT" (effects (font (size 1.27 1.27))))
+
+          (number "8" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+(symbol "1_1.5u" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "1_1.5u" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0402" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "1_1.5u_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.032 0.508)
+
+            (xy 2.032 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 -0.508)
+
+            (xy 0 -2.54)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 2.54)
+
+            (xy 0 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.032 -0.508)
+
+            (xy -2.032 -0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 0 5.08 270) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "1_10u" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "1_10u" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0603" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "1_10u_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.032 0.508)
+
+            (xy 2.032 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 -0.508)
+
+            (xy 0 -2.54)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 2.54)
+
+            (xy 0 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.032 -0.508)
+
+            (xy -2.032 -0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 0 5.08 270) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "1_1n" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "1_1n" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0402" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "1_1n_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.032 0.508)
+
+            (xy 2.032 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 -0.508)
+
+            (xy 0 -2.54)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 2.54)
+
+            (xy 0 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.032 -0.508)
+
+            (xy -2.032 -0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 0 5.08 270) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "1_1u" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "1_1u" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0402" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "1_1u_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.032 0.508)
+
+            (xy 2.032 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 -0.508)
+
+            (xy 0 -2.54)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 2.54)
+
+            (xy 0 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.032 -0.508)
+
+            (xy -2.032 -0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 0 5.08 270) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "1_2.2u" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "1_2.2u" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0402" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "1_2.2u_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.032 0.508)
+
+            (xy 2.032 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 -0.508)
+
+            (xy 0 -2.54)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 2.54)
+
+            (xy 0 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.032 -0.508)
+
+            (xy -2.032 -0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 0 5.08 270) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "1_22u" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "1_22u" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0603" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "1_22u_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.032 0.508)
+
+            (xy 2.032 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 -0.508)
+
+            (xy 0 -2.54)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0 2.54)
+
+            (xy 0 0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 2.032 -0.508)
+
+            (xy -2.032 -0.508)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at 0 5.08 270) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+(symbol "2_0.1u" (in_bom yes) (on_board yes)
+
+      (property "Reference" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "2_0.1u" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "ki_fp_filters" "C0603" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "2_0.1u_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -2.54 0)
+
+            (xy -0.508 0)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy -0.508 -2.032)
+
+            (xy -0.508 2.032)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0.508 0)
+
+            (xy 2.54 0)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 0.508 2.032)
+
+            (xy 0.508 -2.032)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 5.08 0 180) (length 2.54)
+
+          (name "1" (effects (font (size 0 0))))
+
+          (number "1" (effects (font (size 0 0))))
+
+        )
+
+        (pin passive line (at -5.08 0 0) (length 2.54)
+
+          (name "2" (effects (font (size 0 0))))
+
+          (number "2" (effects (font (size 0 0))))
+
+        )
+
+      )
+
+    )
+)

@@ -1,0 +1,300 @@
+(footprint "R_0603_1608Metric__RFV3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "RFV3"
+		(at -0.09 -1.6 180)
+		(layer "F.SilkS")
+		(uuid "e583da20-625f-4ee7-b216-20a715e38f26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "1k"
+		(at 0 1.43 180)
+		(layer "F.Fab")
+		(uuid "536aa55f-b8eb-4633-8a71-14d42e9f5d53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2e89e8b-023d-4453-9551-c9a9db6d28b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f1ad6fc-6b53-45e4-87fc-3e16b1e6bfde")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "BOM_LINK" "https://www.mouser.es/ProductDetail/Vishay-Thin-Film/PCAN0805E1001BST5?qs=0KABoAvMNWeyXKsybicfjw%3D%3D"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32f6db21-3df9-4101-8a10-2a36324e77cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER" "Vishay / Thin Film"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5110129f-0370-4300-b9a1-493c646a5485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER PART" "PCAN0805E1001BST5"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bb17f5d-e751-412e-a484-909527f4a32a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER" "Mouser"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad358c48-df33-493b-aca0-b62a59dd5c18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER PART" "71-PCAN0805E1001BST5"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d16f306-07e4-4d13-8f58-ee25265d8236")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTRIBUTOR" "LCEDA_Lib"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e06fe18-323f-4674-931b-96a04fa92a7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NAMEALIAS" "Value(Ω)"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a13b92ee-5225-4f86-9b73-9e3008f7acb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICEPRE" "R"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0250fafb-9fee-4403-8f19-ed74edde04f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICESYMBOLNAME" "R_0603_US"
+		(at 789.072204 562.233756 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90d047bd-9471-4a29-b224-1b9bc29c67aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "EGSE.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.237258 -0.5225)
+		(end 0.237258 -0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0a14b45-a144-49ca-95f2-c9f2ffb4a6cf")
+	)
+	(fp_line
+		(start -0.237258 0.5225)
+		(end 0.237258 0.5225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0350602-a3ba-4f57-b8cf-4329288549ed")
+	)
+	(fp_line
+		(start -1.48 -0.73)
+		(end 1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15dca302-e25e-4d16-b98a-400791c07e33")
+	)
+	(fp_line
+		(start -1.48 0.73)
+		(end -1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "694a8b9d-068a-4ba4-862e-3866b0b34fa8")
+	)
+	(fp_line
+		(start 1.48 -0.73)
+		(end 1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8000b25-4cff-4659-99e4-ab90601dbb31")
+	)
+	(fp_line
+		(start 1.48 0.73)
+		(end -1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eae63372-3aa5-46bb-9240-e80c41e82286")
+	)
+	(fp_line
+		(start -0.8 -0.4125)
+		(end 0.8 -0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c27f2b35-be81-47ed-8066-fc8fd516cc00")
+	)
+	(fp_line
+		(start -0.8 0.4125)
+		(end -0.8 -0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d37ef1ee-b27a-48c1-bf16-0719f50a5433")
+	)
+	(fp_line
+		(start 0.8 -0.4125)
+		(end 0.8 0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f47e305-3adb-400b-b2bc-2f40401d444a")
+	)
+	(fp_line
+		(start 0.8 0.4125)
+		(end -0.8 0.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37aada0b-cf92-4f53-a1ee-bd1d2be3e841")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "57552c05-ac91-4a88-8d13-c115bfeb4709")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.825 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "764575b7-04e3-4713-bb46-2cac5a19e2e0")
+	)
+	(pad "2" smd roundrect
+		(at 0.825 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "07563784-dcce-4b4c-93e0-31897cdf9afb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

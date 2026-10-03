@@ -1,0 +1,149 @@
+{
+  "schematic": "pq_obc_comms.kicad_sch",
+  "schematic_sha256": "48385cedb89311fa046f25db75ca172f52abf05a5b4442c3fd5e687b585e73c5",
+  "schematic_unchanged": true,
+  "provenance": "Snapshots from embedded lib_symbols. Existing electrical-symbol definitions are retained; not manufacturer or upstream validation.",
+  "original_table_sha256": "2a1efc4ebfe0099500e0b00444101581b26bc4a3352f24cb09381b9f12311701",
+  "original_table": "(sym_lib_table\n  (version 7)\n)\n",
+  "files": {
+    "-nsl_connector.kicad_sym": "dd7646224b1b2115225e29dfc91f012b2041318dc47d2f4a2ba91d53cc750ee3",
+    "-nsl_mcu.kicad_sym": "8a864f161c9007a1e676286404e9e57765e0c0c08ce23158cc141115f6cd4f56",
+    "-nsl_miscellaneous.kicad_sym": "10525cfa89368f24ac32ddb40e65d53d45f043ae263c0122b9c2aeab65c00f28",
+    "-nsl_passive.kicad_sym": "ecb9f435d16ea343780dcb9765031955e2083765075913b60d00f71cebcef71c",
+    "-nsl_power.kicad_sym": "4eee769d0033e660a9dbc64364a366a9ad43a97c23a5e7d0730d4138047e8ace",
+    "-nsl_rf.kicad_sym": "bf522f1d0fdf0bebbda6368641d3c706df340eedb1a90a652c61fd0f1b04c4a4",
+    "-nsl_symbols.kicad_sym": "caf4bc50a5ba3151bbd19ac62fb7d88112f9765eded1a07bcd40cb717c488027",
+    "Connector.kicad_sym": "a72f8f691b63caf6cdb184ead3fb14517e0f42e95099a6e4fd843a6c5575acac",
+    "Device.kicad_sym": "4ad3e307335b2f18cbe3f5ad443ff262c466f8e5126ac363c54bd43e6ecba5a8",
+    "Mechanical.kicad_sym": "1cdde5fdb7b89bc0570bcbc90361896992fd0d4a1d12b9cd9718be3944dddef9",
+    "power.kicad_sym": "6ba5fba09d1b2b675b20196d12969e88d3ef5720233f0164123cd23285128eb0"
+  },
+  "symbols": [
+    {
+      "nickname": "-nsl_connector",
+      "name": "MS-156C",
+      "source_name": "-nsl_connector:MS-156C",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "b5c5861fa004855bac365fc0b5ffbd9a9a1cfd9f629aaa8984efd45c73a7c4b9"
+    },
+    {
+      "nickname": "-nsl_connector",
+      "name": "SLW-110-01",
+      "source_name": "-nsl_connector:SLW-110-01",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "6f8c94a17c52f42ac686df709b3dd940e249d26ea1c3045cede9dd6960b31b73"
+    },
+    {
+      "nickname": "-nsl_mcu",
+      "name": "STM32L476RGT",
+      "source_name": "-nsl_mcu:STM32L476RGT",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "0b9539768b500040b1efe94d11406706d6ad8b7ab821809cb06faf3ffd7d7592"
+    },
+    {
+      "nickname": "-nsl_miscellaneous",
+      "name": "ABS09",
+      "source_name": "-nsl_miscellaneous:ABS09",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "c68cfbad81fdbd847d4a461fd5581970f2fc67c94d788f207519715db0982f25"
+    },
+    {
+      "nickname": "-nsl_passive",
+      "name": "RBS1LAM40ATR_Schottky",
+      "source_name": "-nsl_passive:RBS1LAM40ATR_Schottky",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "337e70b9cbda92e4e37f82c958a689d3b9a332995da70c34f28f52f8ca499440"
+    },
+    {
+      "nickname": "-nsl_power",
+      "name": "BD2232G",
+      "source_name": "-nsl_power:BD2232G",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "97e6e0123d52b27bb09dc95abde94b373eeaaa12795937380d5c6935ff5e94a8"
+    },
+    {
+      "nickname": "-nsl_rf",
+      "name": "BGS12PL6E632",
+      "source_name": "-nsl_rf:BGS12PL6E632",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "a593e6e9450f946713f535f35c6b578774e0ae576091434c115eebfd5a9358db"
+    },
+    {
+      "nickname": "-nsl_rf",
+      "name": "SX1262IML",
+      "source_name": "-nsl_rf:SX1262IML",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "d33d9ea215e6cd7e40a590130a0d1711a11c75911949e702085c84da1b997c72"
+    },
+    {
+      "nickname": "-nsl_symbols",
+      "name": "Silkscreen_Annotation",
+      "source_name": "-nsl_symbols:Silkscreen_Annotation",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "09518e6c86f19274cbd6b854ec34302b8c99064d84c55955d3bf1735de4e52a5"
+    },
+    {
+      "nickname": "Connector",
+      "name": "Conn_Coaxial",
+      "source_name": "Connector:Conn_Coaxial",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "c8261e435721a1348b604350f3c5ae549003c6f88668b04ff7d3c3e85c7139b7"
+    },
+    {
+      "nickname": "Device",
+      "name": "C",
+      "source_name": "Device:C",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "cc395baeeb182dc120fee13a1f9768391cfde2a320174256ddb19e3c26a95504"
+    },
+    {
+      "nickname": "Device",
+      "name": "Crystal_GND24",
+      "source_name": "Device:Crystal_GND24",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "75e3c90b66b1771a32ca916b0df521b683dd91716035ffadd2bf11e75217d5d6"
+    },
+    {
+      "nickname": "Device",
+      "name": "L",
+      "source_name": "Device:L",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "330d6a77d2af27626a58c0780d80468fca4b9be7f4f3df886c95f542fb178978"
+    },
+    {
+      "nickname": "Device",
+      "name": "R",
+      "source_name": "Device:R",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "10e64c78a82820c56f803b98ad90091a9cd1fb4da06ba4f0042d9e76ffafb4c4"
+    },
+    {
+      "nickname": "Mechanical",
+      "name": "MountingHole_Pad",
+      "source_name": "Mechanical:MountingHole_Pad",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "251e07f95e48932e1670b79c3631c8895286ac6bc20c1e87d5bf7ca8fd55382c"
+    },
+    {
+      "nickname": "power",
+      "name": "GND",
+      "source_name": "power:GND",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "661e2e07a424e87b662f2618bb57e7ac92df75d43075e2b74d31a5686e922303"
+    },
+    {
+      "nickname": "power",
+      "name": "VCC",
+      "source_name": "power:VCC",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "55b88aaed643dd04837d4930977be9b2c781443f1551a0ca65f2f6b632cf20b9"
+    },
+    {
+      "nickname": "power",
+      "name": "PWR_FLAG",
+      "source_name": "power:PWR_FLAG",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "ad1eae75914294bb5459738d8116a1498dfe1ee9bdaac0c5bff4a927486c7f35"
+    }
+  ]
+}

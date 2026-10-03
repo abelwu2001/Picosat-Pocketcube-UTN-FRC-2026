@@ -1,0 +1,216 @@
+(footprint "X2__c5377c9d"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "X2"
+		(at 2.622788 -0.014707 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "55f481c7-ee01-4014-bbb7-ccd7f0b3bd49")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FA-128_32.0000MF20X-K5"
+		(at 0 -5.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72274658-c900-4302-be62-de9a0c6aab8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "936554f6-2a65-440c-827e-88d8bf3ed2c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2288f87-cba2-4cfe-9080-9b6eb849d977")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer 1" "Epson Timing"
+		(at 77.776481 247.116505 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5504bea5-db82-46c6-a29a-c62aa3448bc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number 1" "FA-128 32.0000MF20X-K5"
+		(at 77.776481 247.116505 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb268274-d496-436d-9592-22041b71dfd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier 1" "Mouser"
+		(at 77.776481 247.116505 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94f31b56-ee89-4e8b-8b63-87af33415d1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number 1" "732-FA-12832MF20X-K5"
+		(at 77.776481 247.116505 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bfaa8f0-8217-45c3-90cc-b2598a992752")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "pq_obc_comms.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -0.7 1.6)
+		(end -0.6 1.6)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3ebfadde-53c9-4466-aaab-c0311c03b0fc")
+	)
+	(fp_poly
+		(pts
+			(xy -1.424853 -1.26) (xy -1.375147 -1.26) (xy 1.375147 -1.26) (xy 1.424853 -1.26) (xy 1.46 -1.224853)
+			(xy 1.46 -1.175147) (xy 1.46 1.175147) (xy 1.46 1.224853) (xy 1.424853 1.26) (xy 1.375147 1.26) (xy -1.008429 1.26)
+			(xy -1.008429 1.17) (xy -0.441572 1.169999) (xy -0.424912 1.169181) (xy -0.408411 1.166734) (xy -0.346426 1.154406)
+			(xy -0.330242 1.150352) (xy -0.314533 1.144732) (xy -0.304529 1.14) (xy 0.304528 1.14) (xy 0.314531 1.144731)
+			(xy 0.330239 1.150352) (xy 0.346422 1.154405) (xy 0.408406 1.166734) (xy 0.424908 1.169182) (xy 0.441571 1.17)
+			(xy 1.008428 1.169999) (xy 1.025088 1.169181) (xy 1.041589 1.166734) (xy 1.103574 1.154406) (xy 1.119758 1.150352)
+			(xy 1.135467 1.144732) (xy 1.145471 1.14) (xy 1.34 1.14) (xy 1.34 0.945472) (xy 1.34473 0.935469)
+			(xy 1.350351 0.919761) (xy 1.354404 0.903578) (xy 1.366733 0.841594) (xy 1.369181 0.825092) (xy 1.369999 0.808429)
+			(xy 1.369998 0.341572) (xy 1.36918 0.324911) (xy 1.366733 0.308411) (xy 1.354405 0.246426) (xy 1.350351 0.230242)
+			(xy 1.344731 0.214533) (xy 1.34 0.204529) (xy 1.34 -0.204528) (xy 1.34473 -0.214531) (xy 1.350351 -0.230239)
+			(xy 1.354404 -0.246422) (xy 1.366733 -0.308406) (xy 1.369181 -0.324908) (xy 1.369999 -0.341571) (xy 1.369998 -0.808428)
+			(xy 1.36918 -0.825089) (xy 1.366733 -0.841589) (xy 1.354405 -0.903574) (xy 1.350351 -0.919758) (xy 1.344731 -0.935467)
+			(xy 1.34 -0.945471) (xy 1.34 -1.14) (xy 1.145471 -1.14) (xy 1.135468 -1.14473) (xy 1.11976 -1.150351)
+			(xy 1.103577 -1.154404) (xy 1.041593 -1.166733) (xy 1.025091 -1.169181) (xy 1.008428 -1.169999) (xy 0.441571 -1.169998)
+			(xy 0.424911 -1.16918) (xy 0.40841 -1.166733) (xy 0.346425 -1.154405) (xy 0.330241 -1.150351) (xy 0.314532 -1.144731)
+			(xy 0.304528 -1.14) (xy -0.304529 -1.14) (xy -0.314532 -1.14473) (xy -0.33024 -1.150351) (xy -0.346423 -1.154404)
+			(xy -0.408407 -1.166733) (xy -0.424909 -1.169181) (xy -0.441572 -1.169999) (xy -1.008429 -1.169998)
+			(xy -1.025089 -1.16918) (xy -1.04159 -1.166733) (xy -1.103575 -1.154405) (xy -1.119759 -1.150351)
+			(xy -1.135468 -1.144731) (xy -1.145472 -1.14) (xy -1.34 -1.14) (xy -1.34 -0.945471) (xy -1.344731 -0.935468)
+			(xy -1.350352 -0.91976) (xy -1.354405 -0.903577) (xy -1.366734 -0.841593) (xy -1.369182 -0.825091)
+			(xy -1.37 -0.808428) (xy -1.369999 -0.341571) (xy -1.369181 -0.32491) (xy -1.366734 -0.30841) (xy -1.354406 -0.246425)
+			(xy -1.350352 -0.230241) (xy -1.344732 -0.214532) (xy -1.34 -0.204528) (xy -1.34 0.204529) (xy -1.344731 0.214532)
+			(xy -1.350352 0.23024) (xy -1.354405 0.246423) (xy -1.366734 0.308407) (xy -1.369182 0.324909) (xy -1.37 0.341572)
+			(xy -1.369999 0.808429) (xy -1.369181 0.82509) (xy -1.366734 0.84159) (xy -1.354406 0.903575) (xy -1.350352 0.919759)
+			(xy -1.344732 0.935468) (xy -1.34 0.945472) (xy -1.34 1.14) (xy -1.145472 1.14) (xy -1.135469 1.144731)
+			(xy -1.119761 1.150352) (xy -1.103578 1.154405) (xy -1.041594 1.166734) (xy -1.025092 1.169182) (xy -1.008429 1.17)
+			(xy -1.008429 1.26) (xy -1.375147 1.26) (xy -1.424853 1.26) (xy -1.46 1.224853) (xy -1.46 1.175147)
+			(xy -1.46 -1.175147) (xy -1.46 -1.224853)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6da58bd7-6642-4c89-86a7-608a252d4076")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bf714173-8db4-4634-b66c-26406b14acda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91a09d7b-5941-4e75-a91f-25ee3257c2fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.725 0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "843b79b1-d7ea-4978-946d-f4a269224bf4")
+	)
+	(pad "2" smd roundrect
+		(at 0.725 0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "70a5f816-e9c0-4e68-bf94-102e58b246b1")
+	)
+	(pad "3" smd roundrect
+		(at 0.725 -0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "22dd1ff0-5ad7-4c31-a253-c454b59674b8")
+	)
+	(pad "4" smd roundrect
+		(at -0.725 -0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b120ffec-9699-4ac8-8e0a-82b807e63c98")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_NSL_DIR}/miscelaneous-nsl/StepFiles/FA-128.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

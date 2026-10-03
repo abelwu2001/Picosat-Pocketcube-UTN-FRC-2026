@@ -1,0 +1,488 @@
+(footprint "IC2__20e1d699"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "QFN, 12 Pin (https://www.nxp.com/docs/en/data-sheet/MMZ09332B.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "QFN NoLead")
+	(property "Reference" "IC2"
+		(at -1.3336 -2.1592 0)
+		(layer "F.Fab")
+		(uuid "45aedc48-4619-4464-a263-69e650471d93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "ISL9120IRTNZ"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "97f3f426-5956-435d-a55f-c5cffb25c638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed0364c4-9201-45b5-a368-a940d3d8e4f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdb3cde1-71a3-4fe4-8fa9-4e167f4e844d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "BOM_LINK" "https://es.farnell.com/renesas/isl9120irtnz/conver-dc-dc-buck-boost-0-8a-tqfn/dp/2630543?ost=isl9120irtnz"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d92cd7cd-0596-4cb8-9cbb-e8958fd72446")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER" "Renesas / Intersil"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e49a977-ee40-495d-aab3-b797b926a839")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER PART" "ISL9120IRTNZ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9519e2ef-2e7a-4d9b-add6-4f1be0d8aeaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER" "Farnell"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e259998-49dd-41c6-9240-b7af7f50cb68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER PART" "2630543"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0a3cd5e-6b7f-4dd9-9e1e-aa53f97f2ca0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer 1" "Renesas / Intersil"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da8bb50b-7be4-45a5-a3cc-aea54031dfb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number 1" "ISL9120IRTNZ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a31c769b-7ce7-4d08-ac3b-3bb1406ef366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICEPRE" "I"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "198343d3-918b-4c21-bf46-a3a6bfd47874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICESYMBOLNAME" "ISL9120IRTNZ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06754de-da7b-4d0c-ba12-aa01830c991a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier 1" "Farnell"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbce4efd-7953-4c78-832d-393655062a3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number 1" "2630543"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ed6571a-a479-4b5b-9fcc-f7f9ce73d59e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "PQ_EPS.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.61 1.61)
+		(end -1.61 0.885)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f81e504-198f-4956-9f33-db40e5a767ff")
+	)
+	(fp_line
+		(start -0.885 -1.61)
+		(end -1.61 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cc3bb36-3689-4094-b514-4ad6c2e6e72f")
+	)
+	(fp_line
+		(start -0.885 1.61)
+		(end -1.61 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70caaf1d-af01-4bcc-acef-1b8300e5cb31")
+	)
+	(fp_line
+		(start 0.885 -1.61)
+		(end 1.61 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a72d1f33-9215-40fc-8a12-fd2b58a19fd7")
+	)
+	(fp_line
+		(start 0.885 1.61)
+		(end 1.61 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcafb7aa-8a59-42ea-a936-d36ef73e192b")
+	)
+	(fp_line
+		(start 1.61 -1.61)
+		(end 1.61 -0.885)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9803edf4-c757-46b8-85fc-a3a50f43b084")
+	)
+	(fp_line
+		(start 1.61 1.61)
+		(end 1.61 0.885)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ff28359-0792-4727-bc47-26460f52234e")
+	)
+	(fp_line
+		(start -2.1 -2.1)
+		(end -2.1 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "673a138d-2da8-4c3b-abf5-f039fb3dfd26")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8331b462-1fa8-4963-8c0e-3eefb5795e53")
+	)
+	(fp_line
+		(start 2.1 -2.1)
+		(end -2.1 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41187cda-988f-414b-bb50-e6e4f71e0049")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebbfef7b-fd99-419f-a011-3dd699b0dcc0")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e05582c-2cca-4374-b844-dfc08473fa8f")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0528cba-b656-4dcd-ba10-6fe3d8f06d4e")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b5c09cb-0af1-4523-bc7a-5fa425c4d974")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69ba2a3c-a866-44d0-b916-4195db0314d6")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c72e9a60-a284-43cb-b078-aab1d7be9eb0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.95 0)
+		(layer "F.Fab")
+		(uuid "cded8d94-2d8a-43b7-84df-9531749ac953")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.4 -0.4)
+		(size 0.64 0.64)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ea1c185f-a405-4a5c-8389-a33c3dcccb63")
+	)
+	(pad "" smd roundrect
+		(at -0.4 0.4)
+		(size 0.64 0.64)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9633d490-dbf0-477e-bb38-c3d6c8702db0")
+	)
+	(pad "" smd roundrect
+		(at 0.4 -0.4)
+		(size 0.64 0.64)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "88c67c9c-4a7f-4b77-8612-51b52583f193")
+	)
+	(pad "" smd roundrect
+		(at 0.4 0.4)
+		(size 0.64 0.64)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7d608193-38e6-4fa5-8008-8e67590bf57d")
+	)
+	(pad "1" smd roundrect
+		(at -1.4375 -0.5)
+		(size 0.825 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "63b84367-e5d0-41df-918a-f2dbbb3c4fe5")
+	)
+	(pad "2" smd roundrect
+		(at -1.4375 0)
+		(size 0.825 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "47e8068e-a4d6-4558-92f2-cc459aec7b17")
+	)
+	(pad "3" smd roundrect
+		(at -1.4375 0.5)
+		(size 0.825 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ab89098d-db3e-4750-ba52-55be2a536c21")
+	)
+	(pad "4" smd roundrect
+		(at -0.5 1.4375)
+		(size 0.25 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1984c959-c338-43ca-84df-f3c721453855")
+	)
+	(pad "5" smd roundrect
+		(at 0 1.4375)
+		(size 0.25 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d2c44bd2-b350-4ea8-8439-ca90607a4034")
+	)
+	(pad "6" smd roundrect
+		(at 0.5 1.4375)
+		(size 0.25 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2d5af42d-f8d1-4f53-9a78-e29e6803cd5f")
+	)
+	(pad "7" smd roundrect
+		(at 1.4375 0.5)
+		(size 0.825 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "148b61b9-fa66-4ef5-8779-4f32ba8ce561")
+	)
+	(pad "8" smd roundrect
+		(at 1.4375 0)
+		(size 0.825 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "82975fb7-4223-4cc6-9bfa-eadc33a19ff6")
+	)
+	(pad "9" smd roundrect
+		(at 1.4375 -0.5)
+		(size 0.825 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f1cf5649-965d-4b70-8005-6ff7bada923c")
+	)
+	(pad "10" smd roundrect
+		(at 0.5 -1.4375)
+		(size 0.25 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cedb4edf-6ca4-4fe5-8417-07c361eb5590")
+	)
+	(pad "11" smd roundrect
+		(at 0 -1.4375)
+		(size 0.25 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cf98b4de-8243-45b3-9538-ff2dbc4cbbf1")
+	)
+	(pad "12" smd roundrect
+		(at -0.5 -1.4375)
+		(size 0.25 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c952ceaa-5cea-4c77-a419-2126dc3318f7")
+	)
+	(pad "13" smd rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ea933fd3-b5b1-43d1-8b54-9bc2824278c3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_NSL_DIR}/power-nsl/StepFiles/ISL9120IRTNZ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,73 @@
+(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor")
+(symbol "CES-102-02" (in_bom yes) (on_board yes)
+
+      (property "Reference" "J" (at 0 3.81 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "-nsl_connector:CES-102-02" (at -1.27 -3.81 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 0 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "CES-102-02_1_1"
+
+        (rectangle (start -1.27 -1.143) (end 0 -1.397)
+
+          (stroke (width 0.1524) (type default))
+
+          (fill (type none))
+
+        )
+
+        (rectangle (start -1.27 1.397) (end 0 1.143)
+
+          (stroke (width 0.1524) (type default))
+
+          (fill (type none))
+
+        )
+
+        (rectangle (start -1.27 2.54) (end 1.27 -2.54)
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type background))
+
+        )
+
+        (pin passive line (at -5.08 1.27 0) (length 3.81)
+
+          (name "" (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -5.08 -1.27 0) (length 3.81)
+
+          (name "" (effects (font (size 1.27 1.27))))
+
+          (number "2" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+)

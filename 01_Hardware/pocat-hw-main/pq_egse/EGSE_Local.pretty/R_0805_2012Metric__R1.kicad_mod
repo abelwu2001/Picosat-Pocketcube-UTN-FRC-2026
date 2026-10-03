@@ -1,0 +1,300 @@
+(footprint "R_0805_2012Metric__R1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "R1"
+		(at 2.788012 0.053214 270)
+		(layer "F.SilkS")
+		(uuid "b0beca9e-bc0c-4b99-8f38-80f168213712")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "75m"
+		(at 0 1.65 180)
+		(layer "F.Fab")
+		(uuid "db2822eb-36dd-45c7-b89e-e3b94df402b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "496ac3ff-fdb1-4be8-a61b-04e9e1c7fcac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c7d0859-de18-4e9a-a3b9-c2465f1f4db6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "BOM_LINK" "https://www.mouser.es/ProductDetail/KOA-Speer/UR73V2ATTD75L0F?qs=sGAEpiMZZMvdGkrng054t0c0U24Fa%2Fv2PtepVEKuQ4tMOmwcLgCxKQ%3D%3D"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3334008d-8730-417f-ad93-44a7aee96218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER" "KOA Speer"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dc5d0ac-6560-4388-9f58-338b764a0376")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER PART" "UR73V2ATTD75L0F"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28377dd6-235a-4c00-84e0-da77cb6a59f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER" "Mouser"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4342070-72fc-4071-945c-a7c9f1dfc519")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER PART" "660-UR73V2ATTD75L0F"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ace94bb3-d0e3-4254-b63a-46b5965d471d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTRIBUTOR" "LCEDA_Lib"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23c0899a-ffca-42d8-bfdd-1cab7118a596")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NAMEALIAS" "Value(Ω)"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "459503d2-08d1-46b3-b3cd-98a865f9e9ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICEPRE" "R"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a732d2cd-1ab2-4097-b1b1-005d6b5ccf64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICESYMBOLNAME" "R_0603_US"
+		(at 94.841226 697.265202 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c1f7262-2071-44a4-8312-41d8c8972def")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "EGSE.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.227064 -0.735)
+		(end 0.227064 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73be83bc-95e6-455e-96b9-163756c62b16")
+	)
+	(fp_line
+		(start -0.227064 0.735)
+		(end 0.227064 0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aceb9e4a-52e3-4d4d-9107-6397192e6029")
+	)
+	(fp_line
+		(start -1.68 -0.95)
+		(end 1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b895c4d8-f347-45d3-a692-6ac5a6ef7e55")
+	)
+	(fp_line
+		(start -1.68 0.95)
+		(end -1.68 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54e08a8b-63be-4ace-b5b8-3dd33aca16ad")
+	)
+	(fp_line
+		(start 1.68 -0.95)
+		(end 1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d8ce700-e5df-40cd-84bc-df011ae761b0")
+	)
+	(fp_line
+		(start 1.68 0.95)
+		(end -1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d66f5cc-73ae-4d24-88ee-2546ef1c4e2f")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f9112b4-9851-4f7b-a40c-bd0ea17f9a54")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7040c36-d265-4707-b89b-2af6807961a0")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1149b4e-6bcc-4cd1-b8e5-f3b065aca599")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc24d4ab-1a4a-47ac-9e44-2a043098e09f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "9b337376-0a45-461e-b174-394f50a32c53")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9125 0)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.243902439)
+		(uuid "d03aad95-181b-453b-ac98-e29fc02a08f7")
+	)
+	(pad "2" smd roundrect
+		(at 0.9125 0)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.243902439)
+		(uuid "3385166a-a97b-4222-b16a-b0fb45358451")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

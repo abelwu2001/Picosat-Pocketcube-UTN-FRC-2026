@@ -1,0 +1,264 @@
+(footprint "X3__40ef0054"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "X3"
+		(at 1.5 -2.5 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f9e9b3b7-f5f0-43c7-a983-592573a41f59")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ABS09-32.768KHZ-7-T"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd66909a-2a4c-4a20-9198-218bb2611024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "2f576a13-9170-416b-8d29-23ffec0f5b77")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f379bcb9-c538-42e7-8be9-91037e3baa42")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "BOM_MANUFACTURER" "ABRACON"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f25fc68f-688e-417d-a60e-2c0f2591ebdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER PART" "ABS09-32.768KHZ-7-T"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a642be65-ae7b-48ab-beb6-cac1ffdb8ba4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTRIBUTOR" "LCSC"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "635a65a2-3d42-4116-acd9-720187f71c8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer 1" "ABRACON"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ea39c4e-106b-44c1-b005-5f8607e16e1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number 1" "ABS09-32.768KHZ-7-T"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2e02022-1bee-4812-a98e-deebc247e409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICEPRE" "X"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d454563f-5400-4ef3-8c46-a69c62e5f963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICESYMBOLNAME" "ABS09-32.768KHZ-7-T"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d0f7452-17db-43e0-afe2-7d35927c5a8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier 1" "Mouser"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae6fe9e9-a978-444e-b2c2-decb680bb112")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number 1" "815-ABS09-32.768K7T"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43832342-1284-4d53-b0f5-528f39ea8c14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "pq_obc_comms.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 2.41 -1.075147) (xy 2.41 -1.124853) (xy 2.374853 -1.16) (xy 2.325147 -1.16) (xy -2.325147 -1.16)
+			(xy -2.374853 -1.16) (xy -2.41 -1.124853) (xy -2.41 -1.075147) (xy -2.41 -0.769105) (xy -2.400779 -0.815465)
+			(xy -2.396725 -0.831648) (xy -2.391105 -0.847356) (xy -2.383972 -0.862438) (xy -2.375395 -0.876747)
+			(xy -2.314614 -0.967711) (xy -2.304676 -0.981111) (xy -2.293473 -0.993472) (xy -2.29 -0.996619) (xy -2.29 -1.04)
+			(xy -2.229719 -1.04) (xy -2.176748 -1.075394) (xy -2.162439 -1.083971) (xy -2.147357 -1.091104) (xy -2.131649 -1.096724)
+			(xy -2.115466 -1.100778) (xy -2.035254 -1.116733) (xy -2.018751 -1.119181) (xy -2.002088 -1.12) (xy -1.397912 -1.12)
+			(xy -1.38125 -1.119181) (xy -1.364747 -1.116733) (xy -1.284535 -1.100778) (xy -1.268352 -1.096724)
+			(xy -1.252644 -1.091104) (xy -1.237562 -1.083971) (xy -1.223253 -1.075394) (xy -1.170282 -1.04) (xy 1.170281 -1.04)
+			(xy 1.223252 -1.075394) (xy 1.237561 -1.083971) (xy 1.252643 -1.091104) (xy 1.268351 -1.096724) (xy 1.284534 -1.100778)
+			(xy 1.364746 -1.116733) (xy 1.381249 -1.119181) (xy 1.397912 -1.12) (xy 2.002088 -1.12) (xy 2.01875 -1.119181)
+			(xy 2.035253 -1.116733) (xy 2.115465 -1.100778) (xy 2.131648 -1.096724) (xy 2.147356 -1.091104) (xy 2.162438 -1.083971)
+			(xy 2.176747 -1.075394) (xy 2.229718 -1.04) (xy 2.29 -1.04) (xy 2.29 -0.996619) (xy 2.293472 -0.993472)
+			(xy 2.304675 -0.981111) (xy 2.314613 -0.967711) (xy 2.375394 -0.876747) (xy 2.383971 -0.862438) (xy 2.391104 -0.847356)
+			(xy 2.396724 -0.831648) (xy 2.400778 -0.815465) (xy 2.41 -0.769105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "010af96a-5722-4a0b-8cae-3687a686add4")
+	)
+	(fp_poly
+		(pts
+			(xy 2.41 1.124853) (xy 2.41 1.075147) (xy 2.41 0.769106) (xy 2.400778 0.815466) (xy 2.396724 0.831649)
+			(xy 2.391104 0.847357) (xy 2.383971 0.862439) (xy 2.375394 0.876748) (xy 2.314613 0.967712) (xy 2.304675 0.981112)
+			(xy 2.293472 0.993473) (xy 2.29 0.99662) (xy 2.29 1.04) (xy 2.229718 1.04) (xy 2.176747 1.075395)
+			(xy 2.162438 1.083972) (xy 2.147356 1.091105) (xy 2.131648 1.096725) (xy 2.115465 1.100779) (xy 2.035253 1.116734)
+			(xy 2.01875 1.119182) (xy 2.002088 1.12) (xy 1.397912 1.12) (xy 1.381249 1.119182) (xy 1.364746 1.116734)
+			(xy 1.284534 1.100779) (xy 1.268351 1.096725) (xy 1.252643 1.091105) (xy 1.237561 1.083972) (xy 1.223252 1.075395)
+			(xy 1.170281 1.04) (xy -1.170282 1.04) (xy -1.223253 1.075395) (xy -1.237562 1.083972) (xy -1.252644 1.091105)
+			(xy -1.268352 1.096725) (xy -1.284535 1.100779) (xy -1.364747 1.116734) (xy -1.38125 1.119182) (xy -1.397912 1.12)
+			(xy -2.002088 1.12) (xy -2.018751 1.119182) (xy -2.035254 1.116734) (xy -2.115466 1.100779) (xy -2.131649 1.096725)
+			(xy -2.147357 1.091105) (xy -2.162439 1.083972) (xy -2.176748 1.075395) (xy -2.229719 1.04) (xy -2.29 1.04)
+			(xy -2.29 0.99662) (xy -2.293473 0.993473) (xy -2.304676 0.981112) (xy -2.314614 0.967712) (xy -2.375395 0.876748)
+			(xy -2.383972 0.862439) (xy -2.384999 0.860268) (xy -2.384999 0.965443) (xy -2.385842 0.982596) (xy -2.388362 0.999584)
+			(xy -2.392535 1.016243) (xy -2.398321 1.032413) (xy -2.405663 1.047938) (xy -2.41 1.055174) (xy -2.41 1.075147)
+			(xy -2.41 1.124853) (xy -2.374853 1.16) (xy -2.325147 1.16) (xy 2.325147 1.16) (xy 2.374853 1.16)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "690f729d-2c49-4a45-8eeb-b1a6c220e454")
+	)
+	(fp_rect
+		(start -2.4 -1.2)
+		(end 2.4 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9823746f-4a69-4b79-8d0e-48c61913bc95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5bb6f244-6385-4ddd-9ce4-1758b21084d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.7 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "52214422-159b-4eca-b8b8-ee5502d6550c")
+	)
+	(pad "2" smd roundrect
+		(at 1.7 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c66c8ae9-26c7-441b-b853-01e11861a989")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_NSL_DIR}/miscelaneous-nsl/StepFiles/ABS09.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

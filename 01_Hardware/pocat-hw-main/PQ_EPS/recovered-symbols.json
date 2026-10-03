@@ -1,0 +1,198 @@
+{
+  "schematic": "PQ_EPS.kicad_sch",
+  "schematic_sha256": "d05e14e43a69602da5ae688cc34354dc118b2d9b0ec5578cf8b1bc834132693c",
+  "schematic_unchanged": true,
+  "provenance": "Snapshots from embedded lib_symbols. Existing electrical-symbol definitions are retained; not manufacturer or upstream validation.",
+  "original_table_sha256": "4ee7bddfdeba1cbd150078fe5449a6af0a827c4afbbf7725a013d9ed2f9c151d",
+  "original_table": "(sym_lib_table\n  (version 7)\n  (lib (name \"-nsl_connector\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/-nsl_connector.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"-nsl_passive\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/-nsl_passive.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"-nsl_power\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/-nsl_power.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"Connector_Generic\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/Connector_Generic.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"Device\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/Device.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"Embedded_Local_Variants\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/Embedded_Local_Variants.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"Mechanical\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/Mechanical.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"PCB-EPS-altium-import\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/PCB-EPS-altium-import.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"passive-nsl\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/passive-nsl.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"power\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/power.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"symbols-nsl\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/symbols-nsl.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n  (lib (name \"Recovered_LocalVariants\")(type \"KiCad\")(uri \"${KIPRJMOD}/Recovered_Symbols/Recovered_LocalVariants.kicad_sym\")(options \"\")(descr \"Recovered embedded symbols; not manufacturer validated; see recovered-symbols.json\"))\n)\n",
+  "files": {
+    "-nsl_connector.kicad_sym": "260a16f317ce8d06dbbf4d792cdebae091469fa14f1ba2c0ccf9676c9a45aa7c",
+    "-nsl_passive.kicad_sym": "066a10bb2736a2e06d87e00fb4540183c342bf381e7846edca4faf77e3d59214",
+    "-nsl_power.kicad_sym": "d1c9361bc9735f5b43887be53687be216672e748c2b61a67172a3dcd23e8db68",
+    "Connector_Generic.kicad_sym": "53c742c990970c42c784e3e40522a1f71cafc9d02afd7dfae4d59edb093fa850",
+    "Device.kicad_sym": "657a76123694f6d598bf7fed17c431dd8f66a38bd97c9414103e4ce7b3ac9cce",
+    "Mechanical.kicad_sym": "990dadde2fcc7e7de0c61fccb83d141477ec5c16e0377d3c6eca82a18adcf92a",
+    "PCB-EPS-altium-import.kicad_sym": "682a5aa60524e855787bb55e066d6cd52d9c44ce81e1d7aa5844311fa200318b",
+    "Recovered_LocalVariants.kicad_sym": "5210a548fe195d139e43e1915dd42b17afde83feb1c84dc8db124b8dc099785f",
+    "passive-nsl.kicad_sym": "bebf1b80a58c82cd775b9c0e49b79911d5edacb2bcb16dab877128f903cd1593",
+    "power.kicad_sym": "ca3f003636dd4fbb76c4efdca105512eea30fd9772ae0863f42640f64a2553d1",
+    "symbols-nsl.kicad_sym": "178acb058ca4f7395333b2aa6b160cfb8a2208fbe2779c4b7167958287f84e6c"
+  },
+  "symbols": [
+    {
+      "nickname": "-nsl_connector",
+      "name": "CES-102-02",
+      "source_name": "-nsl_connector:CES-102-02",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "33630a1780cb79a68a49a605c4b7b14d2cd84f24cd094764e53d56bf2e837b99"
+    },
+    {
+      "nickname": "-nsl_passive",
+      "name": "RBS1LAM40ATR_Schottky",
+      "source_name": "-nsl_passive:RBS1LAM40ATR_Schottky",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "d9cca5c35f7772694c2d63f77f0d19610bfc26470815a19070ec818932f71936"
+    },
+    {
+      "nickname": "-nsl_power",
+      "name": "ISL9120IRTNZ",
+      "source_name": "-nsl_power:ISL9120IRTNZ",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "a920e538336aae811227047766ea3559cd7e551c1b9e892c68249c7bdfcbba03"
+    },
+    {
+      "nickname": "-nsl_power",
+      "name": "SIR424DP",
+      "source_name": "-nsl_power:SIR424DP",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "ec2131e3840e5cd9424f621ac5c56a8fb6bb78e2b287c7592fa96815461d0753"
+    },
+    {
+      "nickname": "Recovered_LocalVariants",
+      "name": "1_1n_1",
+      "source_name": "Recovered_LocalVariants:1_1n_1",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "f030a9ba4b6bb8fb39c86037ebf7cb2df945410ab73423024f3bdb1800871c27"
+    },
+    {
+      "nickname": "Connector_Generic",
+      "name": "Conn_01x10",
+      "source_name": "Connector_Generic:Conn_01x10",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "b3434e66f43ac76de8391392aed117f5a74579e13486cdc7bcaa85689a0fe3ee"
+    },
+    {
+      "nickname": "Device",
+      "name": "L",
+      "source_name": "Device:L",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "6ec141aae1244377f694eac7639f3166d9a379fd97ec7c6914edf5450419a900"
+    },
+    {
+      "nickname": "Device",
+      "name": "R",
+      "source_name": "Device:R",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "eebc765624915269cd9621e836916699a89f929343cecd5db68b9072bc2e617c"
+    },
+    {
+      "nickname": "Recovered_LocalVariants",
+      "name": "GND_36",
+      "source_name": "Recovered_LocalVariants:GND_36",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "fe516f21fea67174a1102e11371f1a943d45ef8767f22e5d4f267171f45b63d9"
+    },
+    {
+      "nickname": "Mechanical",
+      "name": "MountingHole_Pad",
+      "source_name": "Mechanical:MountingHole_Pad",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "733e04133dc4424805550a2c92bdb477d61565c65daf0be32c63441c58eef398"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "0_100u",
+      "source_name": "PCB-EPS-altium-import:0_100u",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "f31057247a49d9f7ad8766e2fe1b052e0d10c5e164cb66e4cec9bdc2951a3e81"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "0_DS2782E+",
+      "source_name": "PCB-EPS-altium-import:0_DS2782E+",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "ac020f6403e11274623a4629c31665d2f38e94e654abad574aacf338a6dee0d2"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "0_LTC4040EUFD#PBF",
+      "source_name": "PCB-EPS-altium-import:0_LTC4040EUFD#PBF",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "5c3dcf79ae21d80d0e5efeae33daa6d2623f910749db94305608b72d3d269f61"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "0_SPV1040TTR",
+      "source_name": "PCB-EPS-altium-import:0_SPV1040TTR",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "22f8613bcbac6df62e58caa8a4b9faf9b09e9d75299f1933afc9c2c1840ba7da"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "1_1.5u",
+      "source_name": "PCB-EPS-altium-import:1_1.5u",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "a3f9a0002254ede3c335e3908ebcfa037f983884ec506e4c9f19fcd589788a33"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "1_10u",
+      "source_name": "PCB-EPS-altium-import:1_10u",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "abe87f1d985903810d622a2cacba6ab2a819277c535a4f99ce10874064aa4125"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "1_1n",
+      "source_name": "PCB-EPS-altium-import:1_1n",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "6edcb54d64e7a5edcced1dbec1c0e9a837580a792b9a404bb2f5ed869f154556"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "1_1u",
+      "source_name": "PCB-EPS-altium-import:1_1u",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "23a15d8b2a29c263c15338cd646c291fd40e6c2f546df30883cc9a48a091815e"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "1_2.2u",
+      "source_name": "PCB-EPS-altium-import:1_2.2u",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "f5276007f5074aeb2d76296312013ec84f1f1597a68f62895d2d4c7d8beb1686"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "1_22u",
+      "source_name": "PCB-EPS-altium-import:1_22u",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "48fba9995efded28147c7bfef695072cc0988dd868435aacbf2cb46b53bed98d"
+    },
+    {
+      "nickname": "PCB-EPS-altium-import",
+      "name": "2_0.1u",
+      "source_name": "PCB-EPS-altium-import:2_0.1u",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "154cb4a093a40d8fd3ab125af6f3250cd9b9dd7fa495f6f58a998a6138d0f504"
+    },
+    {
+      "nickname": "passive-nsl",
+      "name": "SMM4F",
+      "source_name": "passive-nsl:SMM4F",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "541dd0750058340ba7d016326f4986b8bf717518725847f0803ee8ea0ea1de61"
+    },
+    {
+      "nickname": "power",
+      "name": "GND",
+      "source_name": "power:GND",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "22d3d5983721b5f4f59c73ff13c2e1970ff6e9d1419b03ae14a5a916a6581e65"
+    },
+    {
+      "nickname": "symbols-nsl",
+      "name": "Silkscreen_Annotation",
+      "source_name": "symbols-nsl:Silkscreen_Annotation",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "b9be4e577ba9b4b832c6e4d2b383876aac0947f2867f3c76cedad9bcebe7fd92"
+    },
+    {
+      "nickname": "power",
+      "name": "PWR_FLAG",
+      "source_name": "power:PWR_FLAG",
+      "method": "remove_nickname_from_outer_symbol_name_only",
+      "source_sha256": "fb2a39066b481f7e7dcce7e0e08927026b32b6427a65727b76a34fd7ce496358"
+    }
+  ]
+}

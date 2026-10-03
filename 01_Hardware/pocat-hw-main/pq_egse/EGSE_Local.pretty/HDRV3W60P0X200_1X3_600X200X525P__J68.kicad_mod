@@ -1,0 +1,283 @@
+(footprint "HDRV3W60P0X200_1X3_600X200X525P__J68"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "M22-2010305")
+	(tags "Connector")
+	(property "Reference" "J68"
+		(at -2.605122 0 90)
+		(layer "F.SilkS")
+		(uuid "d9db5c6c-fc73-4277-bce6-82b04784951c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "M22-2010305"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5f285c76-dfba-47c1-89d2-0e0d639353c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bace0a8-db7f-4130-8e08-bfaf37331ea4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Header, SIL, vertical, 3 way, 2mm pitch HARWIN M22 Series, 2mm Pitch 3 Way 1 Row Straight Pin Header, Through Hole, Solder Termination"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b0bd026-238a-4442-868a-a18c1f815f10")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "5.25"
+		(at 667.37198 -82.082224 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73682dd5-94d2-418c-a94f-44a6f0738990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Harwin"
+		(at 667.37198 -82.082224 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aad513b1-1dee-45f2-88a6-fbd2e173fb69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "M22-2010305"
+		(at 667.37198 -82.082224 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ec7577d-1b4d-4a64-8e05-a7c3e71dff36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "855-M22-2010305"
+		(at 667.37198 -82.082224 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c70980f3-3f20-4dca-8ec0-2210389b064e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M22-2010305?qs=xxdqPuaJ%252Ba2uPq%2FQzNRmpg%3D%3D"
+		(at 667.37198 -82.082224 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ad61d15-61f5-426e-9f92-89694af707ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "EGSE.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.175 0)
+		(end -1.175 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c91f3766-fa98-424e-bd32-ac048a2e70a7")
+	)
+	(fp_line
+		(start -1.175 1)
+		(end 5.175 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "382a5509-d0a6-4b23-8f93-3d600dfd88ed")
+	)
+	(fp_line
+		(start 5.175 -1)
+		(end 0 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c845e94-8937-4503-ad98-37dffbc667a8")
+	)
+	(fp_line
+		(start 5.175 1)
+		(end 5.175 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb6770a7-f008-4b02-b8be-1e9584c67f55")
+	)
+	(fp_line
+		(start -1.425 -1.25)
+		(end 5.425 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "849d8d1f-8597-4530-a8a8-5257e514d82b")
+	)
+	(fp_line
+		(start -1.425 1.25)
+		(end -1.425 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c126fdbc-fe30-4741-a476-926a34fde095")
+	)
+	(fp_line
+		(start 5.425 -1.25)
+		(end 5.425 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33ece257-8090-4a38-9042-4e24af68ff38")
+	)
+	(fp_line
+		(start 5.425 1.25)
+		(end -1.425 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbef51a6-9c64-445f-a063-2ff94b8d7a0f")
+	)
+	(fp_line
+		(start -1.175 -1)
+		(end 5.175 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05adb771-5d3f-46cd-8856-7ad8325712b5")
+	)
+	(fp_line
+		(start -1.175 1)
+		(end -1.175 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3d1dddf-2b0d-4fe4-bbfe-debafe09c984")
+	)
+	(fp_line
+		(start 5.175 -1)
+		(end 5.175 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e40e93a-28bc-40b5-8f5f-f81e940a4ec6")
+	)
+	(fp_line
+		(start 5.175 1)
+		(end -1.175 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f00bdb5c-8bae-4006-a5e3-20381454560f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2728f92a-c465-48b5-8011-292b4dd4c2be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8194a08e-59da-4bfb-854e-8c102efbb610")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "664ae8a5-bd2a-4d58-ab21-ff13402710b0")
+	)
+	(pad "3" thru_hole circle
+		(at 4 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0edb3dbc-0d3b-45c1-8b3c-570661624183")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\lidia\\Documents\\SamacSys_PCB_Library\\KiCad\\SamacSys_Parts.3dshapes\\M22-2010305.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

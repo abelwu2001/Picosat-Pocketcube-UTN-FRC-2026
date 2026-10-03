@@ -1,0 +1,1342 @@
+{
+  "board": "PQ_EPS.kicad_pcb",
+  "method": "native pcbnew.PCB_IO_KICAD_SEXPR.FootprintSave of a FOOTPRINT clone; one library item per board UUID",
+  "provenance_notice": "Recovered from embedded project design. NOT a validated upstream/manufacturer footprint library. Existing geometry defects are preserved for review.",
+  "input_board_sha256": "653b1bfa83d07d1ed71745cdc8b4cce4324847da916103e9f63f8e0e0f31c5dd",
+  "output_board_sha256": "653b1bfa83d07d1ed71745cdc8b4cce4324847da916103e9f63f8e0e0f31c5dd",
+  "invariants": {
+    "native_serialization_identical_except_fpid": true,
+    "schematics_changed_only_placed_footprint_property": true
+  },
+  "footprints": [
+    {
+      "uuid": "02e0e550-d0d6-49c9-b1af-e150e6449217",
+      "reference": "J5",
+      "original_fpid": "connector-nsl:CES-102-02",
+      "recovered_fpid": "Recovered_Project:J5__02e0e550",
+      "schematic_path": "/1b34c309-e88e-4907-800b-81978c1dcbd6",
+      "library_file": "Recovered_Project.pretty/J5__02e0e550.kicad_mod",
+      "library_sha256": "e29f9ea8117b878089829d70acf233e4b2adc244e2796a44335e699ad8307aee"
+    },
+    {
+      "uuid": "0e1a387a-8a9e-402d-9a34-e63f9ba9e923",
+      "reference": "L4",
+      "original_fpid": "passive-nsl:XAL5030222MEC",
+      "recovered_fpid": "Recovered_Project:L4__0e1a387a",
+      "schematic_path": "/fc64fbe1-f9a1-4df2-bbaa-8aca66bf6779",
+      "library_file": "Recovered_Project.pretty/L4__0e1a387a.kicad_mod",
+      "library_sha256": "3373d99f3a5917d2235173dc3911420209b96d8821a35ea49e4247c6bc13414f"
+    },
+    {
+      "uuid": "0fa13d2d-c2d6-45e4-b252-597449d47f2b",
+      "reference": "RFV0",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RFV0__0fa13d2d",
+      "schematic_path": "/a148f397-0e6e-43f8-9d82-d2e8091fe281",
+      "library_file": "Recovered_Project.pretty/RFV0__0fa13d2d.kicad_mod",
+      "library_sha256": "9aeedb74ae7c8c2ee7560a490b3cfd3714bf29fc3cb940960c23dca151d2d4e2"
+    },
+    {
+      "uuid": "10c63672-f5d6-4657-9936-5e8bd9fac9a1",
+      "reference": "C5",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:C5__10c63672",
+      "schematic_path": "/7b7871ad-c21e-44e1-97a2-7036b647377e",
+      "library_file": "Recovered_Project.pretty/C5__10c63672.kicad_mod",
+      "library_sha256": "479873ef2aaab51f3bc622028f2a95a7671907cfeab7b3e6dffac3c3f9d56d61"
+    },
+    {
+      "uuid": "1b16b82f-7001-42d8-a311-6de5573719f3",
+      "reference": "C3",
+      "original_fpid": "Capacitor_SMD:C_1206_3216Metric",
+      "recovered_fpid": "Recovered_Project:C3__1b16b82f",
+      "schematic_path": "/4f696cbd-c30b-4639-9011-ef8477077fc0",
+      "library_file": "Recovered_Project.pretty/C3__1b16b82f.kicad_mod",
+      "library_sha256": "20adf15a183ecedef3294c2e7a08d2082a3cc3242ab0c817026649b60d308f3e"
+    },
+    {
+      "uuid": "20e1d699-dee7-4d9d-a08c-74c3c4ba3227",
+      "reference": "IC2",
+      "original_fpid": "power-nsl:ISL9120IRTNZ",
+      "recovered_fpid": "Recovered_Project:IC2__20e1d699",
+      "schematic_path": "/20d92e11-637c-4571-a216-9526c6cfb837",
+      "library_file": "Recovered_Project.pretty/IC2__20e1d699.kicad_mod",
+      "library_sha256": "a1db44f746231f80b402f39a2755001eb47efa91d0b3508b912912a34c6e93fd"
+    },
+    {
+      "uuid": "23007612-b500-4d53-b8ee-6e89ad1f12e3",
+      "reference": "R4",
+      "original_fpid": "Resistor_SMD:R_0805_2012Metric",
+      "recovered_fpid": "Recovered_Project:R4__23007612",
+      "schematic_path": "/29ebefcb-4b03-446b-8392-660d6c756b97",
+      "library_file": "Recovered_Project.pretty/R4__23007612.kicad_mod",
+      "library_sha256": "c157a615182c4b2f44d0eca1b7cc2d0dd0894f6cbd039df324b864ca9011fc12"
+    },
+    {
+      "uuid": "25740c8e-f9e7-40db-af44-7a28d638ee2f",
+      "reference": "RPF2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RPF2__25740c8e",
+      "schematic_path": "/2d4cb0be-954d-4810-8867-94ff4547c849",
+      "library_file": "Recovered_Project.pretty/RPF2__25740c8e.kicad_mod",
+      "library_sha256": "97a0cecc9d11c8bb9fc789aae58067c90ea3e1f5075f511fe7e0464932b5457f"
+    },
+    {
+      "uuid": "33baa008-eb27-4342-93ec-d57d81335151",
+      "reference": "DNC2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:DNC2__33baa008",
+      "schematic_path": "/82964add-0911-40f2-a916-19703ce2f759",
+      "library_file": "Recovered_Project.pretty/DNC2__33baa008.kicad_mod",
+      "library_sha256": "bccbf4228243858bc8651df8221dbd73cba5b077efb6df8ec7abb748b8618b68"
+    },
+    {
+      "uuid": "375bd3c1-c3dc-4a59-a41e-a633e88536f7",
+      "reference": "Annotation2",
+      "original_fpid": "symbols-nsl:NakNak",
+      "recovered_fpid": "Recovered_Project:Annotation2__375bd3c1",
+      "schematic_path": "/bb487544-4f3a-4267-b01c-fb34c11f10ba",
+      "library_file": "Recovered_Project.pretty/Annotation2__375bd3c1.kicad_mod",
+      "library_sha256": "fe68db883873787a3ef52fce0c162a3164dff9792907484a658b18e1fc4ce63d"
+    },
+    {
+      "uuid": "3a5b81d0-4ca5-4c43-b079-7f816c98cd52",
+      "reference": "RFG0",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RFG0__3a5b81d0",
+      "schematic_path": "/edc78843-41b4-46ec-9861-e7744ac09b40",
+      "library_file": "Recovered_Project.pretty/RFG0__3a5b81d0.kicad_mod",
+      "library_sha256": "ef0aa0d4140c97a619fb2caea27889a8c0ef295475a24e3274f37e9b67e8435b"
+    },
+    {
+      "uuid": "3bb3261a-c5c9-4b91-8aa0-622bac6615b1",
+      "reference": "C2",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:C2__3bb3261a",
+      "schematic_path": "/ac9cbdde-2154-4959-a1ad-e0badc139d2c",
+      "library_file": "Recovered_Project.pretty/C2__3bb3261a.kicad_mod",
+      "library_sha256": "9a4837604abcf82bd00d8636c1ac2190e5b484ee2a40dc0b31dc3cc582e2efef"
+    },
+    {
+      "uuid": "3c55d55a-eb72-4843-87ab-2083043283b0",
+      "reference": "L5",
+      "original_fpid": "Inductor_SMD:L_0805_2012Metric",
+      "recovered_fpid": "Recovered_Project:L5__3c55d55a",
+      "schematic_path": "/ea04a726-f4de-48b3-85fe-260f75e11a48",
+      "library_file": "Recovered_Project.pretty/L5__3c55d55a.kicad_mod",
+      "library_sha256": "dee2c3f1030026fb0432fc050ee4a909bd726b17a347bde11c3b13e8a3a67506"
+    },
+    {
+      "uuid": "41eeead0-baa5-4b82-a5a6-0055cf56fb1f",
+      "reference": "H4",
+      "original_fpid": "MountingHole:MountingHole_3.2mm_M3_Pad",
+      "recovered_fpid": "Recovered_Project:H4__41eeead0",
+      "schematic_path": "/7c0afa2f-0bb9-47cd-98a3-02c0d3a5ce59",
+      "library_file": "Recovered_Project.pretty/H4__41eeead0.kicad_mod",
+      "library_sha256": "465fd9db82f9a6a9d9691b2b885e8539bc0b1a75289a58ac7113ef1674d2ab88"
+    },
+    {
+      "uuid": "41ef131c-32bb-4864-8c90-5f898eff54af",
+      "reference": "J1",
+      "original_fpid": "connector-nsl:SLW-110-01",
+      "recovered_fpid": "Recovered_Project:J1__41ef131c",
+      "schematic_path": "/28353577-600e-4d5b-b64a-466a1e032429",
+      "library_file": "Recovered_Project.pretty/J1__41ef131c.kicad_mod",
+      "library_sha256": "46848424ac4b9a105a212c345a086f470df08b660afaab7408dfbe40b2b03e98"
+    },
+    {
+      "uuid": "42875ef3-b4ee-4eb6-9671-6dfc8b684b86",
+      "reference": "RBIAS1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RBIAS1__42875ef3",
+      "schematic_path": "/848ef24d-2e83-43ce-b8e7-88ba302d3754",
+      "library_file": "Recovered_Project.pretty/RBIAS1__42875ef3.kicad_mod",
+      "library_sha256": "95fc4571615ec8c4caf07a3361f21ccdeda78bd762078783c946a535251c9c4b"
+    },
+    {
+      "uuid": "4535851b-a18e-425e-82bd-8ec04e113d35",
+      "reference": "RFB2",
+      "original_fpid": "Resistor_SMD:R_0402_1005Metric",
+      "recovered_fpid": "Recovered_Project:RFB2__4535851b",
+      "schematic_path": "/c069128e-802a-43da-bd06-5616d23d40c3",
+      "library_file": "Recovered_Project.pretty/RFB2__4535851b.kicad_mod",
+      "library_sha256": "4049760c2775e0986102134bcb1517eb4aa55579174723e513643674d2a0e82f"
+    },
+    {
+      "uuid": "4bc49ce2-b8c8-4770-9a5c-cd2a119e5836",
+      "reference": "IC1",
+      "original_fpid": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "recovered_fpid": "Recovered_Project:IC1__4bc49ce2",
+      "schematic_path": "/d98e53df-846e-42cf-8bcb-73861b91efcb",
+      "library_file": "Recovered_Project.pretty/IC1__4bc49ce2.kicad_mod",
+      "library_sha256": "9c7a83c883594981b7258717affdb05236d44f32094fabb91ca0c02df29ff8bd"
+    },
+    {
+      "uuid": "55343438-1e77-4e59-bb74-f69f43121f2d",
+      "reference": "U4",
+      "original_fpid": "Package_DFN_QFN:QFN-24-1EP_4x5mm_P0.5mm_EP2.65x3.65mm",
+      "recovered_fpid": "Recovered_Project:U4__55343438",
+      "schematic_path": "/7b5f0105-088c-426f-b963-5b6d00468625",
+      "library_file": "Recovered_Project.pretty/U4__55343438.kicad_mod",
+      "library_sha256": "282d1ed544a61e0c0f4899a451fbb071e2ac882d7fb7b673c181db8f3670a4fb"
+    },
+    {
+      "uuid": "55b0f0f4-45ec-4add-a2b6-923e0e1edef9",
+      "reference": "H1",
+      "original_fpid": "MountingHole:MountingHole_3.2mm_M3_Pad",
+      "recovered_fpid": "Recovered_Project:H1__55b0f0f4",
+      "schematic_path": "/12c30cb3-102e-4571-8fff-4d01e9ce650a",
+      "library_file": "Recovered_Project.pretty/H1__55b0f0f4.kicad_mod",
+      "library_sha256": "f7086b2173e102beee1ca247c5187c6f023310e21323bef4e783ffa770a9f13c"
+    },
+    {
+      "uuid": "5afebccb-89f5-4ab6-ac27-d2e60bb499c2",
+      "reference": "R7",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:R7__5afebccb",
+      "schematic_path": "/0a6c8a24-1183-4352-91e1-8bfbea5e6d46",
+      "library_file": "Recovered_Project.pretty/R7__5afebccb.kicad_mod",
+      "library_sha256": "471b1d541e55a07ac666251210b4681e224454b1054c1a7d4b9bc7ce16eba3ff"
+    },
+    {
+      "uuid": "5c0411cb-b1ff-4561-b80b-5b452e6e967a",
+      "reference": "RP_FAULT1",
+      "original_fpid": "Resistor_SMD:R_0805_2012Metric",
+      "recovered_fpid": "Recovered_Project:RP_FAULT1__5c0411cb",
+      "schematic_path": "/99f94eb2-988f-41ed-85be-c9701c67f652",
+      "library_file": "Recovered_Project.pretty/RP_FAULT1__5c0411cb.kicad_mod",
+      "library_sha256": "8946533042b8486daa3ae93e21cd868f49cf8e4752250973321a78b31f36f997"
+    },
+    {
+      "uuid": "76985f45-6e2f-4a23-b922-091fd9aecb1c",
+      "reference": "RPF1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RPF1__76985f45",
+      "schematic_path": "/9ca4bf0c-98b7-4133-a4cc-e948a53d84db",
+      "library_file": "Recovered_Project.pretty/RPF1__76985f45.kicad_mod",
+      "library_sha256": "065e0ff4962c4d5204fded32667d15d314464b4007aefa6fa831907d38f59e67"
+    },
+    {
+      "uuid": "7e14e801-513e-4464-894b-0fbca130ea95",
+      "reference": "Q1",
+      "original_fpid": "power-nsl:SIR424DP",
+      "recovered_fpid": "Recovered_Project:Q1__7e14e801",
+      "schematic_path": "/98d57e11-023e-4ebc-aaba-6138ce254959",
+      "library_file": "Recovered_Project.pretty/Q1__7e14e801.kicad_mod",
+      "library_sha256": "d81c23109f72963cc00e2e922f3faed43c0a5994fc91b2b288406da8e471850d"
+    },
+    {
+      "uuid": "85906104-08a5-4385-8915-a6c0372923d3",
+      "reference": "C1",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:C1__85906104",
+      "schematic_path": "/66a3ee22-32d0-46a7-a0f7-9bf3a6e66a1a",
+      "library_file": "Recovered_Project.pretty/C1__85906104.kicad_mod",
+      "library_sha256": "9063d7f7e704ac58cd14f78fd5fac452171b25c966fb354c78ce7ab139096403"
+    },
+    {
+      "uuid": "8813a4fd-235e-4425-af0c-510dbd28cdea",
+      "reference": "C4",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:C4__8813a4fd",
+      "schematic_path": "/cc765deb-0b01-4976-94e4-3d5efcc30a96",
+      "library_file": "Recovered_Project.pretty/C4__8813a4fd.kicad_mod",
+      "library_sha256": "2bc039bf27042dcac06f9807f13732a2584f1099d7d82412e6723b97ebc9f229"
+    },
+    {
+      "uuid": "8e44a857-9689-4178-8e40-54e62c5b0ab4",
+      "reference": "H2",
+      "original_fpid": "MountingHole:MountingHole_3.2mm_M3_Pad",
+      "recovered_fpid": "Recovered_Project:H2__8e44a857",
+      "schematic_path": "/865577da-e7cd-402b-9ab3-71fc329cd78f",
+      "library_file": "Recovered_Project.pretty/H2__8e44a857.kicad_mod",
+      "library_sha256": "408cdb8c38c6b97942e5e6c42903697d1fb4bd8b0609386d6e8c6db4df7824b0"
+    },
+    {
+      "uuid": "9883130c-d8a2-4b9c-bfa8-59817568c9b4",
+      "reference": "R6",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:R6__9883130c",
+      "schematic_path": "/b1fc4893-8b33-49ed-959b-c50625e2d3c3",
+      "library_file": "Recovered_Project.pretty/R6__9883130c.kicad_mod",
+      "library_sha256": "2f4e21495fe942a474ba5aceb7f85d17c66f40ca7a1f64d43fa1c6bb9a4c3ab3"
+    },
+    {
+      "uuid": "a22c6ae2-6ec7-4317-9c7f-196e37daac19",
+      "reference": "RP_CHRG1",
+      "original_fpid": "Resistor_SMD:R_0805_2012Metric",
+      "recovered_fpid": "Recovered_Project:RP_CHRG1__a22c6ae2",
+      "schematic_path": "/8e2ef73d-632b-4975-bb9c-640da3c52043",
+      "library_file": "Recovered_Project.pretty/RP_CHRG1__a22c6ae2.kicad_mod",
+      "library_sha256": "fcb1a9e0482bda491d507de980f199c0adbb1ddc5544540175f27370724f6c10"
+    },
+    {
+      "uuid": "a6eda72d-8188-4667-b034-eda34fd5cbe9",
+      "reference": "J2",
+      "original_fpid": "connector-nsl:SLW-110-01",
+      "recovered_fpid": "Recovered_Project:J2__a6eda72d",
+      "schematic_path": "/eaf514c6-3867-4630-9d5b-74bd804f8566",
+      "library_file": "Recovered_Project.pretty/J2__a6eda72d.kicad_mod",
+      "library_sha256": "2dfa5a29dbafefc2389c4feeaf779d91f1cd18aba13e6120e50e6f41d95217a9"
+    },
+    {
+      "uuid": "aad21b54-c249-447c-abac-033fa1a93809",
+      "reference": "Annotation1",
+      "original_fpid": "symbols-nsl:Bridgemaker",
+      "recovered_fpid": "Recovered_Project:Annotation1__aad21b54",
+      "schematic_path": "/59ca25d6-10ac-48ab-bf36-85fd1f03f93b",
+      "library_file": "Recovered_Project.pretty/Annotation1__aad21b54.kicad_mod",
+      "library_sha256": "26e2a6b3e04c8e415b7afe444ab574295b3359c80278ecd989d334280acc2540"
+    },
+    {
+      "uuid": "b30fbfff-d0a3-4089-b8a8-634a1da20897",
+      "reference": "R9",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:R9__b30fbfff",
+      "schematic_path": "/74980b22-7b69-478b-a211-51e517179001",
+      "library_file": "Recovered_Project.pretty/R9__b30fbfff.kicad_mod",
+      "library_sha256": "a4446a1ce81832b8fbe282678b4de094bd2b5c9bea905c34036e0d4f49037386"
+    },
+    {
+      "uuid": "b7d146b7-3cd2-4443-8bec-3e79f4715784",
+      "reference": "H3",
+      "original_fpid": "MountingHole:MountingHole_3.2mm_M3_Pad",
+      "recovered_fpid": "Recovered_Project:H3__b7d146b7",
+      "schematic_path": "/8a856e26-a485-414d-a57f-35c44d6a2d43",
+      "library_file": "Recovered_Project.pretty/H3__b7d146b7.kicad_mod",
+      "library_sha256": "94e2f64deb12a3bb530a5a08cd35f4ae10bb78369cb0d588da03b3f40aa54974"
+    },
+    {
+      "uuid": "c3f0ad02-e68a-45df-bb49-2b151a7c8b8b",
+      "reference": "RFB1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RFB1__c3f0ad02",
+      "schematic_path": "/46b8f9bd-ddef-44f8-b071-f59fd16f0819",
+      "library_file": "Recovered_Project.pretty/RFB1__c3f0ad02.kicad_mod",
+      "library_sha256": "8f900e3af4768e6d6b805d50c884616e6e94003b01080ea830991a45139c139a"
+    },
+    {
+      "uuid": "c5a4b0be-2ace-4a4b-bec8-1a887d1f62a7",
+      "reference": "R8",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:R8__c5a4b0be",
+      "schematic_path": "/c7a40917-533c-4ecf-9732-08d23a59f673",
+      "library_file": "Recovered_Project.pretty/R8__c5a4b0be.kicad_mod",
+      "library_sha256": "46e03c33b395a9c256626126ccb6f5751465386371d98d53935e0efece319ecb"
+    },
+    {
+      "uuid": "cbe1d312-2baa-4a67-9000-ce549e881c1d",
+      "reference": "J4",
+      "original_fpid": "connector-nsl:SLW-110-01",
+      "recovered_fpid": "Recovered_Project:J4__cbe1d312",
+      "schematic_path": "/bfa3c76e-6d6e-4486-bd9b-7e11992ebe06",
+      "library_file": "Recovered_Project.pretty/J4__cbe1d312.kicad_mod",
+      "library_sha256": "b63df70a94490404d9f4002f41d711082c59f9bae2dbfb5539a8eda7ac0f5554"
+    },
+    {
+      "uuid": "d57aa5a1-b076-4ca0-9f73-a9c083e8cfbd",
+      "reference": "RFG2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RFG2__d57aa5a1",
+      "schematic_path": "/25d2b50f-a719-4b6f-898a-5829c436e437",
+      "library_file": "Recovered_Project.pretty/RFG2__d57aa5a1.kicad_mod",
+      "library_sha256": "8d601873e86567226a30691e7143af1f21371438dfbf274cea60d6c0f616ef10"
+    },
+    {
+      "uuid": "e70eb10d-e72e-46d1-aa47-9ebcd1a8850c",
+      "reference": "RFG1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RFG1__e70eb10d",
+      "schematic_path": "/9a146409-da73-4d7b-8f50-8dcfe23ba737",
+      "library_file": "Recovered_Project.pretty/RFG1__e70eb10d.kicad_mod",
+      "library_sha256": "79bcb75b672f2fc883c63801e9753b5acbbe55cc21cf7eed1aedbaa4209419c4"
+    },
+    {
+      "uuid": "f2fc9b41-0150-4cb4-b5f4-2173ee4b7c9b",
+      "reference": "RFV2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RFV2__f2fc9b41",
+      "schematic_path": "/cb2cffcf-c89f-41b8-a625-805e55709409",
+      "library_file": "Recovered_Project.pretty/RFV2__f2fc9b41.kicad_mod",
+      "library_sha256": "680c6f963013dba4fd3691c011c1eb89780fa5d802f0b15a43c32c8f0c709c08"
+    },
+    {
+      "uuid": "f3199705-adb4-459a-a567-1c0f0df4f177",
+      "reference": "J3",
+      "original_fpid": "connector-nsl:SLW-110-01",
+      "recovered_fpid": "Recovered_Project:J3__f3199705",
+      "schematic_path": "/c3e7358a-de5a-436d-b350-75af551b15d8",
+      "library_file": "Recovered_Project.pretty/J3__f3199705.kicad_mod",
+      "library_sha256": "e3ca4c60590e2eec2e6ec0f592176f804c6df14bb26a8f0d300a87dbbeabe9d7"
+    },
+    {
+      "uuid": "f835551e-23ba-43a2-8953-f04d6d13e453",
+      "reference": "DNC1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:DNC1__f835551e",
+      "schematic_path": "/da46df59-4c28-48ab-b37e-062ef5aab7b8",
+      "library_file": "Recovered_Project.pretty/DNC1__f835551e.kicad_mod",
+      "library_sha256": "cf34412f2601f588d55b66948ea126bb17bc4dfde2ff0c7aa9142a0749059bb9"
+    },
+    {
+      "uuid": "fbfc8f7b-6d1d-472c-ac93-c60182da8e39",
+      "reference": "RFV1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RFV1__fbfc8f7b",
+      "schematic_path": "/85f0fa1f-1df6-427c-b547-5536ccdfb3a1",
+      "library_file": "Recovered_Project.pretty/RFV1__fbfc8f7b.kicad_mod",
+      "library_sha256": "6ed0022c0abc3f69797abbfb319df28964486a0ef0c30a87c57502f20682ea35"
+    },
+    {
+      "uuid": "0692e306-11ee-424e-aa7a-d961f9e9ffd3",
+      "reference": "CINSNS3",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CINSNS3__0692e306",
+      "schematic_path": "/a2e93116-7db8-451b-989d-7c39cd4abbf0",
+      "library_file": "Recovered_Project.pretty/CINSNS3__0692e306.kicad_mod",
+      "library_sha256": "5fb7ddc7cb7b2376b0b70123256f48e5e4d77d5b4a493b6c8b765da4dd6a0a59"
+    },
+    {
+      "uuid": "0808f33b-a758-4d7c-a0be-e32f5e15c783",
+      "reference": "RS1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RS1__0808f33b",
+      "schematic_path": "/fc4ddcba-f90f-45c2-ad81-a965f41bce38",
+      "library_file": "Recovered_Project.pretty/RS1__0808f33b.kicad_mod",
+      "library_sha256": "e4be2796623958e5d780461bbad1f623945416622df997d41e2c5afa4fd6e022"
+    },
+    {
+      "uuid": "0ad47374-21f5-47f2-8e20-72fd9fae8a97",
+      "reference": "R3",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:R3__0ad47374",
+      "schematic_path": "/dd23360e-5af6-4a91-a9a4-f384a67f5c9c",
+      "library_file": "Recovered_Project.pretty/R3__0ad47374.kicad_mod",
+      "library_sha256": "973abac3b13c2d2486654d3dd202f884325c183fe82cc19922bd97faff411166"
+    },
+    {
+      "uuid": "1f269640-c6d3-44fb-9340-c1fd5577ef3b",
+      "reference": "CF1",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CF1__1f269640",
+      "schematic_path": "/0ad25ebc-456a-4d74-b588-e4958562b8e2",
+      "library_file": "Recovered_Project.pretty/CF1__1f269640.kicad_mod",
+      "library_sha256": "31db1a4519f5e977a5f90681bbd1ef196aedb12e9ed97cc81d4de8dbfb1f1343"
+    },
+    {
+      "uuid": "28ad8ce4-dfb9-401d-a304-d3b061be117c",
+      "reference": "L1",
+      "original_fpid": "Inductor_SMD:L_0805_2012Metric",
+      "recovered_fpid": "Recovered_Project:L1__28ad8ce4",
+      "schematic_path": "/6b66ade6-b623-4ea7-b48f-20d40a75ad68",
+      "library_file": "Recovered_Project.pretty/L1__28ad8ce4.kicad_mod",
+      "library_sha256": "bcefa5398bcd0aaa6af79a37f8076795860475460f86d5acd17ee005d5707056"
+    },
+    {
+      "uuid": "2d21b16b-631c-46e0-b765-8fa83cfa2341",
+      "reference": "L3",
+      "original_fpid": "Inductor_SMD:L_0805_2012Metric",
+      "recovered_fpid": "Recovered_Project:L3__2d21b16b",
+      "schematic_path": "/a1eb9611-8839-417d-a4c5-859b6b9a983b",
+      "library_file": "Recovered_Project.pretty/L3__2d21b16b.kicad_mod",
+      "library_sha256": "684d3e6fc736a69f0f117248c39586ee63a02cad90b06454de2a259cc90ac483"
+    },
+    {
+      "uuid": "41f13721-3f09-49bc-95ac-95c1010d61a5",
+      "reference": "U2",
+      "original_fpid": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "recovered_fpid": "Recovered_Project:U2__41f13721",
+      "schematic_path": "/6f5e32d3-d45d-462b-9690-09839cafcc89",
+      "library_file": "Recovered_Project.pretty/U2__41f13721.kicad_mod",
+      "library_sha256": "d50e8dcf34cd1ac5e52f48f40817078e555eb2d2435c6382398c3459109b7a44"
+    },
+    {
+      "uuid": "48f96149-dcbb-408e-9ddb-f0ffba38074f",
+      "reference": "U3",
+      "original_fpid": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "recovered_fpid": "Recovered_Project:U3__48f96149",
+      "schematic_path": "/627cce16-efb5-438c-b1bc-e25131d07b20",
+      "library_file": "Recovered_Project.pretty/U3__48f96149.kicad_mod",
+      "library_sha256": "7f88449a028f8659b9727267e9241f8e63e45ff1eac11adb41a8f9fd07d2d7bc"
+    },
+    {
+      "uuid": "4d5a425d-61d0-4de0-a7ef-3d5e7926ddb6",
+      "reference": "CIN1",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CIN1__4d5a425d",
+      "schematic_path": "/851881ad-4d76-44e4-99bf-ec3790b8b6e5",
+      "library_file": "Recovered_Project.pretty/CIN1__4d5a425d.kicad_mod",
+      "library_sha256": "c1aeae79dbf0eef6d7cf6cbf7245ac096daece602e73268a311e050311a1d9ef"
+    },
+    {
+      "uuid": "556b6153-bfcd-49db-9215-460fec2ca639",
+      "reference": "RS2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RS2__556b6153",
+      "schematic_path": "/087de02d-97b2-4b8c-9469-667e3938e024",
+      "library_file": "Recovered_Project.pretty/RS2__556b6153.kicad_mod",
+      "library_sha256": "75c53f04b8d59dd6c9161c6113f75eae7e23ae18f776f694960e8813ea718f57"
+    },
+    {
+      "uuid": "583a5c2e-80bd-42af-a2da-f63fec79fe6b",
+      "reference": "RH2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RH2__583a5c2e",
+      "schematic_path": "/b6b6c8f0-256e-4c88-8230-a7a016c83485",
+      "library_file": "Recovered_Project.pretty/RH2__583a5c2e.kicad_mod",
+      "library_sha256": "841767aeab32349bcb709a531159cb602ae8535bdeabc53bc3ef8846ea6f2a88"
+    },
+    {
+      "uuid": "61c11c4e-e65c-4bf1-a3ca-1f151ac9f9ea",
+      "reference": "RL3",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RL3__61c11c4e",
+      "schematic_path": "/2b3b0bc9-f70b-40da-a49a-4662ae28614d",
+      "library_file": "Recovered_Project.pretty/RL3__61c11c4e.kicad_mod",
+      "library_sha256": "6ebd5be5468509be1699d0adc1b6e4df17eaf32818d4666bfab85c3f40d4e5bc"
+    },
+    {
+      "uuid": "61dff1fe-d9e8-4d2f-a8c8-dc6a5e35a2f0",
+      "reference": "CIN2",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CIN2__61dff1fe",
+      "schematic_path": "/2020dda8-a4ed-4d2b-b0e0-0f92c85807dd",
+      "library_file": "Recovered_Project.pretty/CIN2__61dff1fe.kicad_mod",
+      "library_sha256": "25c66df592a8bb7fe6ed9269d907dbbf204670586f8e52248cd3ac5cf1a761b4"
+    },
+    {
+      "uuid": "652cde38-074d-47d6-b7b9-e2443a85ae6a",
+      "reference": "COUT2",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:COUT2__652cde38",
+      "schematic_path": "/b20ab3c5-a7c9-4b44-ae3d-25ec7d792872",
+      "library_file": "Recovered_Project.pretty/COUT2__652cde38.kicad_mod",
+      "library_sha256": "1ed3de1e8168d63bbaeeb4411c918a4562751bf9d4d4851d245cbee2bb300269"
+    },
+    {
+      "uuid": "714a8ecb-e902-416d-ad98-d880b3082aab",
+      "reference": "R1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:R1__714a8ecb",
+      "schematic_path": "/9c3e7c8a-5e5f-4ef0-bf23-643449e787a1",
+      "library_file": "Recovered_Project.pretty/R1__714a8ecb.kicad_mod",
+      "library_sha256": "6ac3f979024a789ac4061e3130faa4f1b614a42712adf97a9328bb832a262719"
+    },
+    {
+      "uuid": "754a9436-80f4-488c-94f8-cccb91a82478",
+      "reference": "COUT3",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:COUT3__754a9436",
+      "schematic_path": "/638b8141-93b6-42fc-9cec-f4a0e969a01a",
+      "library_file": "Recovered_Project.pretty/COUT3__754a9436.kicad_mod",
+      "library_sha256": "3499b40aeb0516e3be572520653cf522989fe39ae27d462a7058ffa8b85f39ea"
+    },
+    {
+      "uuid": "79efa971-1624-4687-9294-b5c3c4c292f1",
+      "reference": "RF2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RF2__79efa971",
+      "schematic_path": "/c2562ed8-4572-4317-8308-f48311831d6f",
+      "library_file": "Recovered_Project.pretty/RF2__79efa971.kicad_mod",
+      "library_sha256": "9c5388dbb928bd0a66df40c40bce116e28a7839a086f4c40ade8700e6a012bca"
+    },
+    {
+      "uuid": "7a7f343d-fb09-4640-96b5-1e3ec015f3d9",
+      "reference": "CIN3",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CIN3__7a7f343d",
+      "schematic_path": "/039e2d05-303b-4151-90ee-d44bb90169a8",
+      "library_file": "Recovered_Project.pretty/CIN3__7a7f343d.kicad_mod",
+      "library_sha256": "194c363ce089d658a86b9a18380ef8b6a5b52b6e5260ab3c67c84e7206601b0b"
+    },
+    {
+      "uuid": "7fceb7d9-b4c8-4934-b61f-20580bf39965",
+      "reference": "COUTSNS2",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:COUTSNS2__7fceb7d9",
+      "schematic_path": "/070bb935-5395-47b8-a417-b7bf4965c17d",
+      "library_file": "Recovered_Project.pretty/COUTSNS2__7fceb7d9.kicad_mod",
+      "library_sha256": "62ae76cdb0fc031527348a0cde90c4205b3096f6750184cc44fec5fd392d39f2"
+    },
+    {
+      "uuid": "8296a06b-62ba-433f-b042-76039f14ebe1",
+      "reference": "D4",
+      "original_fpid": "passive-nsl:RBS1LAM40ATR_Schottky",
+      "recovered_fpid": "Recovered_Project:D4__8296a06b",
+      "schematic_path": "/708949ff-4071-484a-aaaa-d36c312e5b12",
+      "library_file": "Recovered_Project.pretty/D4__8296a06b.kicad_mod",
+      "library_sha256": "695074e9d0ef42019c95b630add9101d7038f37e35828a56ccf5119d6f7cf432"
+    },
+    {
+      "uuid": "9665c163-5650-4441-8b67-1674284a826a",
+      "reference": "R2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:R2__9665c163",
+      "schematic_path": "/bdb29fbe-fa20-40f7-9b60-5d621f82cb03",
+      "library_file": "Recovered_Project.pretty/R2__9665c163.kicad_mod",
+      "library_sha256": "73b6f3474f27e6575b822fe67a39f5c16d6a8793814d72105cea98a110486de5"
+    },
+    {
+      "uuid": "9ba6cb21-75aa-4201-acea-ca9abc83df5a",
+      "reference": "D5",
+      "original_fpid": "passive-nsl:RBS1LAM40ATR_Schottky",
+      "recovered_fpid": "Recovered_Project:D5__9ba6cb21",
+      "schematic_path": "/42488954-7deb-4e32-a19b-2f05724375e5",
+      "library_file": "Recovered_Project.pretty/D5__9ba6cb21.kicad_mod",
+      "library_sha256": "c1604ce397d3e2bae0a4e7288f7ca314b730ea30ef53f9f67817b17dbf67b9db"
+    },
+    {
+      "uuid": "a3c0c3c5-d7ac-47d5-9521-510238d4d199",
+      "reference": "COUTSNS1",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:COUTSNS1__a3c0c3c5",
+      "schematic_path": "/6869bfa4-aef5-41f0-8843-64b892d98271",
+      "library_file": "Recovered_Project.pretty/COUTSNS1__a3c0c3c5.kicad_mod",
+      "library_sha256": "ef172ad3e2551b983c3139ec596f01090f33daa0883719241ac59f35bc3e530c"
+    },
+    {
+      "uuid": "ab158bdd-b3c9-4130-bea8-a3a2efd4327f",
+      "reference": "COUT1",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:COUT1__ab158bdd",
+      "schematic_path": "/65e360cc-6df6-4908-a979-4d4f4bb8ca73",
+      "library_file": "Recovered_Project.pretty/COUT1__ab158bdd.kicad_mod",
+      "library_sha256": "25e9838975d4eb204015d1620c34432b469303217af80b773365f359001c7fd5"
+    },
+    {
+      "uuid": "b23261de-d42b-4067-8e9d-6a85e2e74a77",
+      "reference": "RL2",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RL2__b23261de",
+      "schematic_path": "/ee55c64c-5059-4af8-bb35-e2d66eb9caa0",
+      "library_file": "Recovered_Project.pretty/RL2__b23261de.kicad_mod",
+      "library_sha256": "f0aee2a563f8749bdd763784d64882af734113ab165100b7b9c3915a690687c5"
+    },
+    {
+      "uuid": "b4a62e9b-b01e-4169-8cfc-2c1029e36a08",
+      "reference": "RF1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RF1__b4a62e9b",
+      "schematic_path": "/093f8f6a-779e-4f70-9d13-aff7386f011e",
+      "library_file": "Recovered_Project.pretty/RF1__b4a62e9b.kicad_mod",
+      "library_sha256": "547e94313ee8ba806ccf57e3cc8f802c1f1c140a538326800daee6644c213f97"
+    },
+    {
+      "uuid": "b8c6c485-9ccb-4d38-88cb-f0b8d2d3382b",
+      "reference": "RS3",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RS3__b8c6c485",
+      "schematic_path": "/6f0a2e6e-ebf4-46c7-80e9-dc9186315674",
+      "library_file": "Recovered_Project.pretty/RS3__b8c6c485.kicad_mod",
+      "library_sha256": "ee0b41fcb8ed1fd0d92b396a010790abb29508a9b09b4e02f90639352a56febe"
+    },
+    {
+      "uuid": "ba5a3009-43c8-4463-8bc4-849306d6cf13",
+      "reference": "L2",
+      "original_fpid": "Inductor_SMD:L_0805_2012Metric",
+      "recovered_fpid": "Recovered_Project:L2__ba5a3009",
+      "schematic_path": "/4ca148b7-b4b7-48bf-a570-ffa140b993d4",
+      "library_file": "Recovered_Project.pretty/L2__ba5a3009.kicad_mod",
+      "library_sha256": "4e8133113140031a43daf76aec06fbba184f8e35c04d195802d7df8b7d66f1cc"
+    },
+    {
+      "uuid": "bcc6cc11-1c7a-4d41-8013-deca643e80b5",
+      "reference": "RF3",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RF3__bcc6cc11",
+      "schematic_path": "/3398fddb-94aa-4733-8d25-99f5d4fed83e",
+      "library_file": "Recovered_Project.pretty/RF3__bcc6cc11.kicad_mod",
+      "library_sha256": "297d386c03d485c19823452adeb9898def78ebc4bd1750bd8af1d1f85f68ee9f"
+    },
+    {
+      "uuid": "bf330c01-4f47-4fc5-ba2b-e300d11efdf7",
+      "reference": "CF2",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CF2__bf330c01",
+      "schematic_path": "/461dca3a-5108-4389-9282-8e87c4cbfc40",
+      "library_file": "Recovered_Project.pretty/CF2__bf330c01.kicad_mod",
+      "library_sha256": "834fa236f3d40323bcecd246215f35937671b67f7285c3c1e295ec18eb8c3cb9"
+    },
+    {
+      "uuid": "c3fa03f0-9c59-4bb7-acd2-a630554b007a",
+      "reference": "D6",
+      "original_fpid": "passive-nsl:RBS1LAM40ATR_Schottky",
+      "recovered_fpid": "Recovered_Project:D6__c3fa03f0",
+      "schematic_path": "/50e95e48-8c26-4f6b-9ffa-69ed2f109ad3",
+      "library_file": "Recovered_Project.pretty/D6__c3fa03f0.kicad_mod",
+      "library_sha256": "c4170924c5a8629c5d2b24118146a46f4cbbc22d9ca3458b1d51b90fe6d6063c"
+    },
+    {
+      "uuid": "c8bb742b-c866-45c2-83b2-5fa272980174",
+      "reference": "CINSNS2",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CINSNS2__c8bb742b",
+      "schematic_path": "/d330a4e5-3b7b-4ebd-b4a0-b81754b23d9c",
+      "library_file": "Recovered_Project.pretty/CINSNS2__c8bb742b.kicad_mod",
+      "library_sha256": "4ff962b3b64af357993d8bf3e1f6de63d0d4f8405e9684a5a86b35cc8860f070"
+    },
+    {
+      "uuid": "ccc287bf-f1b3-40bb-a004-4f8978ebf078",
+      "reference": "RF6",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RF6__ccc287bf",
+      "schematic_path": "/6dc2b70a-fa96-402d-9712-1f0b4292c215",
+      "library_file": "Recovered_Project.pretty/RF6__ccc287bf.kicad_mod",
+      "library_sha256": "d123af0a5089c72799d8623e6733d391e456578928488529007ddd0a920e77b8"
+    },
+    {
+      "uuid": "cdcae543-b303-4206-a7aa-0ff0d91e560f",
+      "reference": "RF4",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RF4__cdcae543",
+      "schematic_path": "/4812c7be-6b72-4afe-8b8a-af90690e7e32",
+      "library_file": "Recovered_Project.pretty/RF4__cdcae543.kicad_mod",
+      "library_sha256": "2c17f56551ab255c29486f47ce82884338a8e5368988d88ed148b3883214c1a4"
+    },
+    {
+      "uuid": "d6a92ff9-c35a-4dbd-9d3f-d5ae765bb202",
+      "reference": "D1",
+      "original_fpid": "passive-nsl:SMM4F15ATR",
+      "recovered_fpid": "Recovered_Project:D1__d6a92ff9",
+      "schematic_path": "/a1fc289c-e79b-4117-84f0-6be6543380f5",
+      "library_file": "Recovered_Project.pretty/D1__d6a92ff9.kicad_mod",
+      "library_sha256": "7b3ecb969284a0629f92a9041f4d5e9b320fef9ce021d675bed5cf2131eac766"
+    },
+    {
+      "uuid": "d7212c9c-89d8-4670-aad3-0ff3db0f434b",
+      "reference": "COUTSNS3",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:COUTSNS3__d7212c9c",
+      "schematic_path": "/81786d24-22b1-40f2-b8f2-036544e6b26d",
+      "library_file": "Recovered_Project.pretty/COUTSNS3__d7212c9c.kicad_mod",
+      "library_sha256": "14f76c8afa02ac5b2bfe9c9f90c3b6c3876cea0fc07d38c56d5fdfe9e008db15"
+    },
+    {
+      "uuid": "dc4340d5-67c9-4bb1-a4fe-3e906c1f56bc",
+      "reference": "CF3",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CF3__dc4340d5",
+      "schematic_path": "/2b2542f2-f56d-4ce8-b708-7e2bde679ede",
+      "library_file": "Recovered_Project.pretty/CF3__dc4340d5.kicad_mod",
+      "library_sha256": "8cca9fa9663cf6bc7e76eb1f26e0aa234bc126fb5a101b07b6335f91fd754546"
+    },
+    {
+      "uuid": "e18f0f22-8bb7-4536-b9d4-820209ea00c1",
+      "reference": "D3",
+      "original_fpid": "passive-nsl:SMM4F15ATR",
+      "recovered_fpid": "Recovered_Project:D3__e18f0f22",
+      "schematic_path": "/9e3ee376-14d8-47c6-8af3-a59d9209c1b0",
+      "library_file": "Recovered_Project.pretty/D3__e18f0f22.kicad_mod",
+      "library_sha256": "f5247c8d2644c2f008a9ac9fe25d42cd34fd326b2cca759e4655ccd193c3113a"
+    },
+    {
+      "uuid": "e8436764-fbfb-4078-a8cb-4b51422a1dec",
+      "reference": "Annotation3",
+      "original_fpid": "symbols-nsl:Snail",
+      "recovered_fpid": "Recovered_Project:Annotation3__e8436764",
+      "schematic_path": "/86e02ed0-15ca-4ba0-a431-fa51a555fe63",
+      "library_file": "Recovered_Project.pretty/Annotation3__e8436764.kicad_mod",
+      "library_sha256": "c11aa6985d52f83a3fcb1faa1329b6bec0015bc7595ca7e9fb2813e2f7a68668"
+    },
+    {
+      "uuid": "eb7258e8-0e06-46de-981d-13c61d6c684e",
+      "reference": "U1",
+      "original_fpid": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "recovered_fpid": "Recovered_Project:U1__eb7258e8",
+      "schematic_path": "/7767eabf-0f4e-4ae3-86c4-f3ae8adea3e0",
+      "library_file": "Recovered_Project.pretty/U1__eb7258e8.kicad_mod",
+      "library_sha256": "2b5e1037c4b0fc29bbb16b481f2250af793d15b102707a3eb59f1e558269823b"
+    },
+    {
+      "uuid": "ecdadcf0-04f5-4617-ac7a-4e0c075cae04",
+      "reference": "RH3",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RH3__ecdadcf0",
+      "schematic_path": "/c4e4f88a-a29a-4bbc-9bf1-9c89d6070182",
+      "library_file": "Recovered_Project.pretty/RH3__ecdadcf0.kicad_mod",
+      "library_sha256": "5e466b64c4711165c9810a49225d515db140919f4701e49ace33877f3316b477"
+    },
+    {
+      "uuid": "f4b268ee-db40-4aea-9ec1-05cc774c8020",
+      "reference": "RF5",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RF5__f4b268ee",
+      "schematic_path": "/7a6aa4bf-1733-462f-b2f6-c50ebb74e457",
+      "library_file": "Recovered_Project.pretty/RF5__f4b268ee.kicad_mod",
+      "library_sha256": "a25829ad711ba30c46cadc765fca8a799472bf901643d025dd147ad141e035ee"
+    },
+    {
+      "uuid": "fa346202-66cc-4588-9c8d-086807a1ef6a",
+      "reference": "RL1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RL1__fa346202",
+      "schematic_path": "/b19f9656-ecd6-4700-8fb9-cd537a85da0d",
+      "library_file": "Recovered_Project.pretty/RL1__fa346202.kicad_mod",
+      "library_sha256": "8fdef6e7ad8f9ec4ad8a3986e0dc34fa0d485866d5d258a7799fb3dd180809bf"
+    },
+    {
+      "uuid": "fc164062-0dd5-49b5-9db9-05fe2f064d21",
+      "reference": "RH1",
+      "original_fpid": "Resistor_SMD:R_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:RH1__fc164062",
+      "schematic_path": "/22aed1b1-76a2-44a4-9085-df3abe2cfe97",
+      "library_file": "Recovered_Project.pretty/RH1__fc164062.kicad_mod",
+      "library_sha256": "b3c0b72685b65ecce2d3858c356258c02805e82876f5f5810b829076803e7515"
+    },
+    {
+      "uuid": "fe801517-6e9d-4818-8252-44476fd5fbfa",
+      "reference": "CINSNS1",
+      "original_fpid": "Capacitor_SMD:C_0603_1608Metric",
+      "recovered_fpid": "Recovered_Project:CINSNS1__fe801517",
+      "schematic_path": "/e44ba0c0-76b9-4cdb-9e02-ec185902e118",
+      "library_file": "Recovered_Project.pretty/CINSNS1__fe801517.kicad_mod",
+      "library_sha256": "a1b81e627556afd9df6e415df4c6aec6bde85da6a27274c7c02107cfb7b8bee2"
+    },
+    {
+      "uuid": "ff0ca32b-87e9-4dfa-89c7-bf4ca0cb58ad",
+      "reference": "D2",
+      "original_fpid": "passive-nsl:SMM4F15ATR",
+      "recovered_fpid": "Recovered_Project:D2__ff0ca32b",
+      "schematic_path": "/3ed85106-c831-4750-a874-253a1759c35c",
+      "library_file": "Recovered_Project.pretty/D2__ff0ca32b.kicad_mod",
+      "library_sha256": "38aabe7f3861da62e720647f8d7221601e3862ad20c0f9fd9eed8aefd1af06ea"
+    }
+  ],
+  "schematics": [
+    {
+      "file": "PQ_EPS.kicad_sch",
+      "input_sha256": "d05e14e43a69602da5ae688cc34354dc118b2d9b0ec5578cf8b1bc834132693c",
+      "output_sha256": "d05e14e43a69602da5ae688cc34354dc118b2d9b0ec5578cf8b1bc834132693c",
+      "updates": [
+        {
+          "reference": "CIN3",
+          "old_footprint": "Recovered_Project:CIN3__7a7f343d",
+          "new_footprint": "Recovered_Project:CIN3__7a7f343d",
+          "status": "updated"
+        },
+        {
+          "reference": "COUTSNS2",
+          "old_footprint": "Recovered_Project:COUTSNS2__7fceb7d9",
+          "new_footprint": "Recovered_Project:COUTSNS2__7fceb7d9",
+          "status": "updated"
+        },
+        {
+          "reference": "RS2",
+          "old_footprint": "Recovered_Project:RS2__556b6153",
+          "new_footprint": "Recovered_Project:RS2__556b6153",
+          "status": "updated"
+        },
+        {
+          "reference": "RF1",
+          "old_footprint": "Recovered_Project:RF1__b4a62e9b",
+          "new_footprint": "Recovered_Project:RF1__b4a62e9b",
+          "status": "updated"
+        },
+        {
+          "reference": "R7",
+          "old_footprint": "Recovered_Project:R7__5afebccb",
+          "new_footprint": "Recovered_Project:R7__5afebccb",
+          "status": "updated"
+        },
+        {
+          "reference": "CF1",
+          "old_footprint": "Recovered_Project:CF1__1f269640",
+          "new_footprint": "Recovered_Project:CF1__1f269640",
+          "status": "updated"
+        },
+        {
+          "reference": "H1",
+          "old_footprint": "Recovered_Project:H1__55b0f0f4",
+          "new_footprint": "Recovered_Project:H1__55b0f0f4",
+          "status": "updated"
+        },
+        {
+          "reference": "J5",
+          "old_footprint": "Recovered_Project:J5__02e0e550",
+          "new_footprint": "Recovered_Project:J5__02e0e550",
+          "status": "updated"
+        },
+        {
+          "reference": "CIN2",
+          "old_footprint": "Recovered_Project:CIN2__61dff1fe",
+          "new_footprint": "Recovered_Project:CIN2__61dff1fe",
+          "status": "updated"
+        },
+        {
+          "reference": "IC2",
+          "old_footprint": "Recovered_Project:IC2__20e1d699",
+          "new_footprint": "Recovered_Project:IC2__20e1d699",
+          "status": "updated"
+        },
+        {
+          "reference": "RH1",
+          "old_footprint": "Recovered_Project:RH1__fc164062",
+          "new_footprint": "Recovered_Project:RH1__fc164062",
+          "status": "updated"
+        },
+        {
+          "reference": "RFG2",
+          "old_footprint": "Recovered_Project:RFG2__d57aa5a1",
+          "new_footprint": "Recovered_Project:RFG2__d57aa5a1",
+          "status": "updated"
+        },
+        {
+          "reference": "J1",
+          "old_footprint": "Recovered_Project:J1__41ef131c",
+          "new_footprint": "Recovered_Project:J1__41ef131c",
+          "status": "updated"
+        },
+        {
+          "reference": "R4",
+          "old_footprint": "Recovered_Project:R4__23007612",
+          "new_footprint": "Recovered_Project:R4__23007612",
+          "status": "updated"
+        },
+        {
+          "reference": "CF3",
+          "old_footprint": "Recovered_Project:CF3__dc4340d5",
+          "new_footprint": "Recovered_Project:CF3__dc4340d5",
+          "status": "updated"
+        },
+        {
+          "reference": "RL3",
+          "old_footprint": "Recovered_Project:RL3__61c11c4e",
+          "new_footprint": "Recovered_Project:RL3__61c11c4e",
+          "status": "updated"
+        },
+        {
+          "reference": "RPF2",
+          "old_footprint": "Recovered_Project:RPF2__25740c8e",
+          "new_footprint": "Recovered_Project:RPF2__25740c8e",
+          "status": "updated"
+        },
+        {
+          "reference": "RF3",
+          "old_footprint": "Recovered_Project:RF3__bcc6cc11",
+          "new_footprint": "Recovered_Project:RF3__bcc6cc11",
+          "status": "updated"
+        },
+        {
+          "reference": "D2",
+          "old_footprint": "Recovered_Project:D2__ff0ca32b",
+          "new_footprint": "Recovered_Project:D2__ff0ca32b",
+          "status": "updated"
+        },
+        {
+          "reference": "D5",
+          "old_footprint": "Recovered_Project:D5__9ba6cb21",
+          "new_footprint": "Recovered_Project:D5__9ba6cb21",
+          "status": "updated"
+        },
+        {
+          "reference": "CF2",
+          "old_footprint": "Recovered_Project:CF2__bf330c01",
+          "new_footprint": "Recovered_Project:CF2__bf330c01",
+          "status": "updated"
+        },
+        {
+          "reference": "RFB1",
+          "old_footprint": "Recovered_Project:RFB1__c3f0ad02",
+          "new_footprint": "Recovered_Project:RFB1__c3f0ad02",
+          "status": "updated"
+        },
+        {
+          "reference": "RF4",
+          "old_footprint": "Recovered_Project:RF4__cdcae543",
+          "new_footprint": "Recovered_Project:RF4__cdcae543",
+          "status": "updated"
+        },
+        {
+          "reference": "L2",
+          "old_footprint": "Recovered_Project:L2__ba5a3009",
+          "new_footprint": "Recovered_Project:L2__ba5a3009",
+          "status": "updated"
+        },
+        {
+          "reference": "C3",
+          "old_footprint": "Recovered_Project:C3__1b16b82f",
+          "new_footprint": "Recovered_Project:C3__1b16b82f",
+          "status": "updated"
+        },
+        {
+          "reference": "D6",
+          "old_footprint": "Recovered_Project:D6__c3fa03f0",
+          "new_footprint": "Recovered_Project:D6__c3fa03f0",
+          "status": "updated"
+        },
+        {
+          "reference": "Annotation1",
+          "old_footprint": "Recovered_Project:Annotation1__aad21b54",
+          "new_footprint": "Recovered_Project:Annotation1__aad21b54",
+          "status": "updated"
+        },
+        {
+          "reference": "U3",
+          "old_footprint": "Recovered_Project:U3__48f96149",
+          "new_footprint": "Recovered_Project:U3__48f96149",
+          "status": "updated"
+        },
+        {
+          "reference": "COUT3",
+          "old_footprint": "Recovered_Project:COUT3__754a9436",
+          "new_footprint": "Recovered_Project:COUT3__754a9436",
+          "status": "updated"
+        },
+        {
+          "reference": "COUT1",
+          "old_footprint": "Recovered_Project:COUT1__ab158bdd",
+          "new_footprint": "Recovered_Project:COUT1__ab158bdd",
+          "status": "updated"
+        },
+        {
+          "reference": "C1",
+          "old_footprint": "Recovered_Project:C1__85906104",
+          "new_footprint": "Recovered_Project:C1__85906104",
+          "status": "updated"
+        },
+        {
+          "reference": "COUTSNS1",
+          "old_footprint": "Recovered_Project:COUTSNS1__a3c0c3c5",
+          "new_footprint": "Recovered_Project:COUTSNS1__a3c0c3c5",
+          "status": "updated"
+        },
+        {
+          "reference": "L1",
+          "old_footprint": "Recovered_Project:L1__28ad8ce4",
+          "new_footprint": "Recovered_Project:L1__28ad8ce4",
+          "status": "updated"
+        },
+        {
+          "reference": "RF6",
+          "old_footprint": "Recovered_Project:RF6__ccc287bf",
+          "new_footprint": "Recovered_Project:RF6__ccc287bf",
+          "status": "updated"
+        },
+        {
+          "reference": "RS3",
+          "old_footprint": "Recovered_Project:RS3__b8c6c485",
+          "new_footprint": "Recovered_Project:RS3__b8c6c485",
+          "status": "updated"
+        },
+        {
+          "reference": "U2",
+          "old_footprint": "Recovered_Project:U2__41f13721",
+          "new_footprint": "Recovered_Project:U2__41f13721",
+          "status": "updated"
+        },
+        {
+          "reference": "D4",
+          "old_footprint": "Recovered_Project:D4__8296a06b",
+          "new_footprint": "Recovered_Project:D4__8296a06b",
+          "status": "updated"
+        },
+        {
+          "reference": "R9",
+          "old_footprint": "Recovered_Project:R9__b30fbfff",
+          "new_footprint": "Recovered_Project:R9__b30fbfff",
+          "status": "updated"
+        },
+        {
+          "reference": "U1",
+          "old_footprint": "Recovered_Project:U1__eb7258e8",
+          "new_footprint": "Recovered_Project:U1__eb7258e8",
+          "status": "updated"
+        },
+        {
+          "reference": "RF5",
+          "old_footprint": "Recovered_Project:RF5__f4b268ee",
+          "new_footprint": "Recovered_Project:RF5__f4b268ee",
+          "status": "updated"
+        },
+        {
+          "reference": "U4",
+          "old_footprint": "Recovered_Project:U4__55343438",
+          "new_footprint": "Recovered_Project:U4__55343438",
+          "status": "updated"
+        },
+        {
+          "reference": "C5",
+          "old_footprint": "Recovered_Project:C5__10c63672",
+          "new_footprint": "Recovered_Project:C5__10c63672",
+          "status": "updated"
+        },
+        {
+          "reference": "H4",
+          "old_footprint": "Recovered_Project:H4__41eeead0",
+          "new_footprint": "Recovered_Project:H4__41eeead0",
+          "status": "updated"
+        },
+        {
+          "reference": "COUTSNS3",
+          "old_footprint": "Recovered_Project:COUTSNS3__d7212c9c",
+          "new_footprint": "Recovered_Project:COUTSNS3__d7212c9c",
+          "status": "updated"
+        },
+        {
+          "reference": "DNC2",
+          "old_footprint": "Recovered_Project:DNC2__33baa008",
+          "new_footprint": "Recovered_Project:DNC2__33baa008",
+          "status": "updated"
+        },
+        {
+          "reference": "RBIAS1",
+          "old_footprint": "Recovered_Project:RBIAS1__42875ef3",
+          "new_footprint": "Recovered_Project:RBIAS1__42875ef3",
+          "status": "updated"
+        },
+        {
+          "reference": "CIN1",
+          "old_footprint": "Recovered_Project:CIN1__4d5a425d",
+          "new_footprint": "Recovered_Project:CIN1__4d5a425d",
+          "status": "updated"
+        },
+        {
+          "reference": "RFV1",
+          "old_footprint": "Recovered_Project:RFV1__fbfc8f7b",
+          "new_footprint": "Recovered_Project:RFV1__fbfc8f7b",
+          "status": "updated"
+        },
+        {
+          "reference": "H2",
+          "old_footprint": "Recovered_Project:H2__8e44a857",
+          "new_footprint": "Recovered_Project:H2__8e44a857",
+          "status": "updated"
+        },
+        {
+          "reference": "Annotation3",
+          "old_footprint": "Recovered_Project:Annotation3__e8436764",
+          "new_footprint": "Recovered_Project:Annotation3__e8436764",
+          "status": "updated"
+        },
+        {
+          "reference": "H3",
+          "old_footprint": "Recovered_Project:H3__b7d146b7",
+          "new_footprint": "Recovered_Project:H3__b7d146b7",
+          "status": "updated"
+        },
+        {
+          "reference": "RP_CHRG1",
+          "old_footprint": "Recovered_Project:RP_CHRG1__a22c6ae2",
+          "new_footprint": "Recovered_Project:RP_CHRG1__a22c6ae2",
+          "status": "updated"
+        },
+        {
+          "reference": "Q1",
+          "old_footprint": "Recovered_Project:Q1__7e14e801",
+          "new_footprint": "Recovered_Project:Q1__7e14e801",
+          "status": "updated"
+        },
+        {
+          "reference": "RP_FAULT1",
+          "old_footprint": "Recovered_Project:RP_FAULT1__5c0411cb",
+          "new_footprint": "Recovered_Project:RP_FAULT1__5c0411cb",
+          "status": "updated"
+        },
+        {
+          "reference": "RFG1",
+          "old_footprint": "Recovered_Project:RFG1__e70eb10d",
+          "new_footprint": "Recovered_Project:RFG1__e70eb10d",
+          "status": "updated"
+        },
+        {
+          "reference": "R1",
+          "old_footprint": "Recovered_Project:R1__714a8ecb",
+          "new_footprint": "Recovered_Project:R1__714a8ecb",
+          "status": "updated"
+        },
+        {
+          "reference": "RPF1",
+          "old_footprint": "Recovered_Project:RPF1__76985f45",
+          "new_footprint": "Recovered_Project:RPF1__76985f45",
+          "status": "updated"
+        },
+        {
+          "reference": "D3",
+          "old_footprint": "Recovered_Project:D3__e18f0f22",
+          "new_footprint": "Recovered_Project:D3__e18f0f22",
+          "status": "updated"
+        },
+        {
+          "reference": "RFV0",
+          "old_footprint": "Recovered_Project:RFV0__0fa13d2d",
+          "new_footprint": "Recovered_Project:RFV0__0fa13d2d",
+          "status": "updated"
+        },
+        {
+          "reference": "L3",
+          "old_footprint": "Recovered_Project:L3__2d21b16b",
+          "new_footprint": "Recovered_Project:L3__2d21b16b",
+          "status": "updated"
+        },
+        {
+          "reference": "D1",
+          "old_footprint": "Recovered_Project:D1__d6a92ff9",
+          "new_footprint": "Recovered_Project:D1__d6a92ff9",
+          "status": "updated"
+        },
+        {
+          "reference": "CINSNS3",
+          "old_footprint": "Recovered_Project:CINSNS3__0692e306",
+          "new_footprint": "Recovered_Project:CINSNS3__0692e306",
+          "status": "updated"
+        },
+        {
+          "reference": "C2",
+          "old_footprint": "Recovered_Project:C2__3bb3261a",
+          "new_footprint": "Recovered_Project:C2__3bb3261a",
+          "status": "updated"
+        },
+        {
+          "reference": "RL1",
+          "old_footprint": "Recovered_Project:RL1__fa346202",
+          "new_footprint": "Recovered_Project:RL1__fa346202",
+          "status": "updated"
+        },
+        {
+          "reference": "R6",
+          "old_footprint": "Recovered_Project:R6__9883130c",
+          "new_footprint": "Recovered_Project:R6__9883130c",
+          "status": "updated"
+        },
+        {
+          "reference": "COUT2",
+          "old_footprint": "Recovered_Project:COUT2__652cde38",
+          "new_footprint": "Recovered_Project:COUT2__652cde38",
+          "status": "updated"
+        },
+        {
+          "reference": "RH2",
+          "old_footprint": "Recovered_Project:RH2__583a5c2e",
+          "new_footprint": "Recovered_Project:RH2__583a5c2e",
+          "status": "updated"
+        },
+        {
+          "reference": "Annotation2",
+          "old_footprint": "Recovered_Project:Annotation2__375bd3c1",
+          "new_footprint": "Recovered_Project:Annotation2__375bd3c1",
+          "status": "updated"
+        },
+        {
+          "reference": "R2",
+          "old_footprint": "Recovered_Project:R2__9665c163",
+          "new_footprint": "Recovered_Project:R2__9665c163",
+          "status": "updated"
+        },
+        {
+          "reference": "J4",
+          "old_footprint": "Recovered_Project:J4__cbe1d312",
+          "new_footprint": "Recovered_Project:J4__cbe1d312",
+          "status": "updated"
+        },
+        {
+          "reference": "RFB2",
+          "old_footprint": "Recovered_Project:RFB2__4535851b",
+          "new_footprint": "Recovered_Project:RFB2__4535851b",
+          "status": "updated"
+        },
+        {
+          "reference": "RF2",
+          "old_footprint": "Recovered_Project:RF2__79efa971",
+          "new_footprint": "Recovered_Project:RF2__79efa971",
+          "status": "updated"
+        },
+        {
+          "reference": "J3",
+          "old_footprint": "Recovered_Project:J3__f3199705",
+          "new_footprint": "Recovered_Project:J3__f3199705",
+          "status": "updated"
+        },
+        {
+          "reference": "RH3",
+          "old_footprint": "Recovered_Project:RH3__ecdadcf0",
+          "new_footprint": "Recovered_Project:RH3__ecdadcf0",
+          "status": "updated"
+        },
+        {
+          "reference": "R8",
+          "old_footprint": "Recovered_Project:R8__c5a4b0be",
+          "new_footprint": "Recovered_Project:R8__c5a4b0be",
+          "status": "updated"
+        },
+        {
+          "reference": "RFV2",
+          "old_footprint": "Recovered_Project:RFV2__f2fc9b41",
+          "new_footprint": "Recovered_Project:RFV2__f2fc9b41",
+          "status": "updated"
+        },
+        {
+          "reference": "C4",
+          "old_footprint": "Recovered_Project:C4__8813a4fd",
+          "new_footprint": "Recovered_Project:C4__8813a4fd",
+          "status": "updated"
+        },
+        {
+          "reference": "CINSNS2",
+          "old_footprint": "Recovered_Project:CINSNS2__c8bb742b",
+          "new_footprint": "Recovered_Project:CINSNS2__c8bb742b",
+          "status": "updated"
+        },
+        {
+          "reference": "IC1",
+          "old_footprint": "Recovered_Project:IC1__4bc49ce2",
+          "new_footprint": "Recovered_Project:IC1__4bc49ce2",
+          "status": "updated"
+        },
+        {
+          "reference": "DNC1",
+          "old_footprint": "Recovered_Project:DNC1__f835551e",
+          "new_footprint": "Recovered_Project:DNC1__f835551e",
+          "status": "updated"
+        },
+        {
+          "reference": "R3",
+          "old_footprint": "Recovered_Project:R3__0ad47374",
+          "new_footprint": "Recovered_Project:R3__0ad47374",
+          "status": "updated"
+        },
+        {
+          "reference": "CINSNS1",
+          "old_footprint": "Recovered_Project:CINSNS1__fe801517",
+          "new_footprint": "Recovered_Project:CINSNS1__fe801517",
+          "status": "updated"
+        },
+        {
+          "reference": "L5",
+          "old_footprint": "Recovered_Project:L5__3c55d55a",
+          "new_footprint": "Recovered_Project:L5__3c55d55a",
+          "status": "updated"
+        },
+        {
+          "reference": "J2",
+          "old_footprint": "Recovered_Project:J2__a6eda72d",
+          "new_footprint": "Recovered_Project:J2__a6eda72d",
+          "status": "updated"
+        },
+        {
+          "reference": "RFG0",
+          "old_footprint": "Recovered_Project:RFG0__3a5b81d0",
+          "new_footprint": "Recovered_Project:RFG0__3a5b81d0",
+          "status": "updated"
+        },
+        {
+          "reference": "RL2",
+          "old_footprint": "Recovered_Project:RL2__b23261de",
+          "new_footprint": "Recovered_Project:RL2__b23261de",
+          "status": "updated"
+        },
+        {
+          "reference": "RS1",
+          "old_footprint": "Recovered_Project:RS1__0808f33b",
+          "new_footprint": "Recovered_Project:RS1__0808f33b",
+          "status": "updated"
+        },
+        {
+          "reference": "L4",
+          "old_footprint": "Recovered_Project:L4__0e1a387a",
+          "new_footprint": "Recovered_Project:L4__0e1a387a",
+          "status": "updated"
+        }
+      ]
+    }
+  ]
+}

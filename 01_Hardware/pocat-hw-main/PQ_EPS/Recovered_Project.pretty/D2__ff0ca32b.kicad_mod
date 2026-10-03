@@ -1,0 +1,328 @@
+(footprint "D2__ff0ca32b"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "STmite_2022")
+	(tags "Zener Diode")
+	(property "Reference" "D2"
+		(at -1.069 1.805 180)
+		(layer "F.Fab")
+		(uuid "6bc7c37b-7f7b-4dca-9da1-cafc69477732")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SMM4F"
+		(at -0.375 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2242f364-e067-4aa8-a568-7785b46fa79f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ef3b53f4-9ff1-49ac-9b71-3394a83e531f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "e72facca-9a97-4906-ad48-ff2c6fc07635")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Manufacturer 1" "STMicroelectronics"
+		(at 52.1186 -173.2302 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22fb3402-a8d1-4b6e-bd44-624d863483e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number 1" "SMM4F18A-TR "
+		(at 52.1186 -173.2302 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c87de01-0720-4695-9054-fa54a0101a68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier 1" "Mouser"
+		(at 52.1186 -173.2302 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "101328d8-7edf-49f1-8915-de684c72a02d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number 1" " 511-SMM4F18A-TR "
+		(at 52.1186 -173.2302 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85f5edc4-49b5-4940-8fd1-83d9842446dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "PQ_EPS.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.2306 1.3716)
+		(end 2.0206 1.3716)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7db5f8bc-8d2c-48ee-827e-6e0209723b1c")
+	)
+	(fp_line
+		(start 2.0206 -1.3716)
+		(end 1.2306 -1.3716)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cbf16f7-363a-4995-8215-1a4f18194209")
+	)
+	(fp_line
+		(start 2.0206 -0.9216)
+		(end 2.0206 -1.3716)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7c81769-ed26-4ca3-be48-ce0dc109bf1c")
+	)
+	(fp_line
+		(start 2.0206 1.3716)
+		(end 2.0206 0.9216)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a284dde-f334-404c-99df-f0c22556bc38")
+	)
+	(fp_poly
+		(pts
+			(xy 2.1328 -0.028489) (xy 2.1328 -0.069911) (xy 2.1198 -0.082911) (xy 2.1198 -0.015489)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9b129ac4-c203-467b-86c6-c60e65885557")
+	)
+	(fp_poly
+		(pts
+			(xy 2.1328 0.071511) (xy 2.1328 0.030089) (xy 2.1198 0.017089) (xy 2.1198 0.084511)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "66c08a54-2c4d-4231-a82c-bb4334075744")
+	)
+	(fp_poly
+		(pts
+			(xy 2.125332 -0.018298) (xy 2.135373 -0.0492) (xy 2.125332 -0.080102) (xy 2.1198 -0.084122) (xy 2.1198 -0.014279)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cc4c6978-a7c8-4df5-942d-8103418f6a80")
+	)
+	(fp_poly
+		(pts
+			(xy 2.125332 0.081702) (xy 2.135373 0.0508) (xy 2.125332 0.019898) (xy 2.1198 0.015878) (xy 2.1198 0.085721)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "728a50ce-863f-42f7-8552-e4908609f558")
+	)
+	(fp_poly
+		(pts
+			(xy 2.167865 0.062603) (xy 2.187946 0.0008) (xy 2.167865 -0.061003) (xy 2.1198 -0.095925) (xy 2.1198 0.097524)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5c052eac-99a6-4425-aace-26e9b917c03d")
+	)
+	(fp_line
+		(start -2.9 -1.52)
+		(end 2.286 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd88b1ed-79fd-44b9-928d-0243b4078800")
+	)
+	(fp_line
+		(start -2.9 1.52)
+		(end -2.9 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e7dda72-3686-4367-9a19-5933ecb61e74")
+	)
+	(fp_line
+		(start 2.286 -1.52)
+		(end 2.286 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fae4f56-c92a-4e1f-b88c-44b5a03d7494")
+	)
+	(fp_line
+		(start 2.286 1.52)
+		(end -2.9 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bfaa034-bfcd-48c4-b04d-370cb34f8e0d")
+	)
+	(fp_line
+		(start -1.89 -0.95)
+		(end 1.06 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08df0567-6dd0-46eb-b5c5-72e8d9570d5e")
+	)
+	(fp_line
+		(start -1.89 0.95)
+		(end -1.89 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cfb7613-54ed-48be-b355-6e3159de1278")
+	)
+	(fp_line
+		(start 1.06 -0.95)
+		(end 1.06 0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f89adbc-eaa1-403f-b010-ce9c3c779621")
+	)
+	(fp_line
+		(start 1.06 0.95)
+		(end -1.89 0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02fc8eb3-ebbf-4479-b505-acf23b0935d7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.415 2.54 180)
+		(layer "F.Fab")
+		(uuid "2b78cd74-7a78-4b48-ac5a-60e5bcbe0270")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.3048 0)
+		(size 1.8 2.04)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83553f4f-f336-41a9-8647-ebeed24d08fe")
+	)
+	(pad "1" smd rect
+		(at 1.5748 0)
+		(size 0.75 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55a94e62-cdb9-4c12-be65-ab8882a3e00e")
+	)
+	(pad "2" smd rect
+		(at -2.286 0 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1ce15f7-e4c9-4c7a-a4c0-00a90ee0940a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_NSL_DIR}/passive-nsl/StepFiles/SMM4F.stp"
+		(offset
+			(xyz -0.5 0 0)
+		)
+		(scale
+			(xyz 2.6 2.5 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

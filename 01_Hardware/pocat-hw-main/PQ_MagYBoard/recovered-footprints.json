@@ -1,0 +1,232 @@
+{
+  "board": "PQ_MagYBoard.kicad_pcb",
+  "method": "native pcbnew.PCB_IO_KICAD_SEXPR.FootprintSave of a FOOTPRINT clone; one library item per board UUID",
+  "provenance_notice": "Recovered from embedded project design. NOT a validated upstream/manufacturer footprint library. Existing geometry defects are preserved for review.",
+  "input_board_sha256": "e3257286eb73279ce3c23d427f6c9921520088f99c24f018040c0ccdc8403a72",
+  "output_board_sha256": "e3257286eb73279ce3c23d427f6c9921520088f99c24f018040c0ccdc8403a72",
+  "invariants": {
+    "native_serialization_identical_except_fpid": true,
+    "schematics_changed_only_placed_footprint_property": true
+  },
+  "footprints": [
+    {
+      "uuid": "01ccc00b-6d0d-4529-8af9-b907b024679b",
+      "reference": "H8",
+      "original_fpid": "MountingHole:MountingHole_2.2mm_M2_DIN965",
+      "recovered_fpid": "Recovered_Project:H8__01ccc00b",
+      "schematic_path": "/b9249e22-da58-42a6-b220-0dded6e9f0c9",
+      "library_file": "Recovered_Project.pretty/H8__01ccc00b.kicad_mod",
+      "library_sha256": "b79f6e109ba2ebd1edf3f533e3724e56fa58ac3c5f3915454a49727473e6f523"
+    },
+    {
+      "uuid": "04eba765-96d5-41a8-bfcf-a2e264227ef9",
+      "reference": "H2",
+      "original_fpid": "MountingHole:MountingHole_6.4mm_M6_DIN965",
+      "recovered_fpid": "Recovered_Project:H2__04eba765",
+      "schematic_path": "/5e225566-d4ee-4c33-a1d4-d1ae3a65f094",
+      "library_file": "Recovered_Project.pretty/H2__04eba765.kicad_mod",
+      "library_sha256": "828b1ad7c7932672cdb869071bd761bd890d08a2d1879e7f9daf9af759751a06"
+    },
+    {
+      "uuid": "1c8c80f3-a910-4df7-8c00-ed8112a60c98",
+      "reference": "J1",
+      "original_fpid": "connector-nsl:M207810245",
+      "recovered_fpid": "Recovered_Project:J1__1c8c80f3",
+      "schematic_path": "/8db4e6f2-cccc-4709-b28a-14d48f4b236b",
+      "library_file": "Recovered_Project.pretty/J1__1c8c80f3.kicad_mod",
+      "library_sha256": "e2048c2de9ba21e002f93b00972646f4c763bb89aaf1a8d86336d0f7b5655ae5"
+    },
+    {
+      "uuid": "4e36dd2d-be60-406d-a806-0729c7bed7d8",
+      "reference": "H1",
+      "original_fpid": "MountingHole:MountingHole_6.4mm_M6_DIN965",
+      "recovered_fpid": "Recovered_Project:H1__4e36dd2d",
+      "schematic_path": "/f65768cd-2a90-4dd0-8969-3c96b54c8d65",
+      "library_file": "Recovered_Project.pretty/H1__4e36dd2d.kicad_mod",
+      "library_sha256": "ce14460c10e3adc73a7281f12e4323f236cda198bc62e41df4ac2a08bc4103dd"
+    },
+    {
+      "uuid": "513e248b-5d91-422d-bb33-0f2cac7fb0a6",
+      "reference": "H7",
+      "original_fpid": "MountingHole:MountingHole_2.2mm_M2_DIN965",
+      "recovered_fpid": "Recovered_Project:H7__513e248b",
+      "schematic_path": "/d30fbf9e-802d-4fac-8fc8-393e1be9f982",
+      "library_file": "Recovered_Project.pretty/H7__513e248b.kicad_mod",
+      "library_sha256": "f9d217d99564318c8b4aa868b07a281d8e1f48153fa84bdc7e5e55ed7a5ae6e5"
+    },
+    {
+      "uuid": "5195467b-04f5-4986-9e60-b1db81408d25",
+      "reference": "H5",
+      "original_fpid": "MountingHole:MountingHole_2.2mm_M2_DIN965",
+      "recovered_fpid": "Recovered_Project:H5__5195467b",
+      "schematic_path": "/88abb0c3-df43-4b04-b707-7b6851715fb2",
+      "library_file": "Recovered_Project.pretty/H5__5195467b.kicad_mod",
+      "library_sha256": "a62ab558e2dd85c3fe3dbd1152866a9e4ebfc0a6372bf59cebd2604ff7ea5bfa"
+    },
+    {
+      "uuid": "80f6b20b-be84-4bf0-8178-452da3a2afcf",
+      "reference": "H6",
+      "original_fpid": "MountingHole:MountingHole_2.2mm_M2_DIN965",
+      "recovered_fpid": "Recovered_Project:H6__80f6b20b",
+      "schematic_path": "/8aed3e4e-de4e-4ada-9a90-f603b41436d5",
+      "library_file": "Recovered_Project.pretty/H6__80f6b20b.kicad_mod",
+      "library_sha256": "c11fc0b8abd37e490f2f917b3eaad0d4b017a65ebffeed01bacc518836807414"
+    },
+    {
+      "uuid": "96abf5d7-b8aa-4cdf-9761-fa8063fbf535",
+      "reference": "D1",
+      "original_fpid": "LED_SMD:LED_0402_1005Metric",
+      "recovered_fpid": "Recovered_Project:D1__96abf5d7",
+      "schematic_path": "/1610e1ca-e210-4450-8fd7-879d07c872dd",
+      "library_file": "Recovered_Project.pretty/D1__96abf5d7.kicad_mod",
+      "library_sha256": "224c9621a7cf2a7d0ea5a7725f40eab7286261dcc1a41286a13284cb6449017a"
+    },
+    {
+      "uuid": "a7a81e5c-babb-40b4-a366-e9f9e79f4e8b",
+      "reference": "H4",
+      "original_fpid": "MountingHole:MountingHole_6.4mm_M6_DIN965",
+      "recovered_fpid": "Recovered_Project:H4__a7a81e5c",
+      "schematic_path": "/6eb24847-a1ea-44e0-9d6d-2e6e536ce77b",
+      "library_file": "Recovered_Project.pretty/H4__a7a81e5c.kicad_mod",
+      "library_sha256": "37d8bd2f2ca95a98f690820dc73941c75ab37c9553b36a9c3ab5f7cfcd108c3d"
+    },
+    {
+      "uuid": "b5fb1087-1dbb-4f4f-a1a7-fe99f373c421",
+      "reference": "H3",
+      "original_fpid": "MountingHole:MountingHole_6.4mm_M6_DIN965",
+      "recovered_fpid": "Recovered_Project:H3__b5fb1087",
+      "schematic_path": "/230c7b72-ad11-4793-95eb-2706b1459fdf",
+      "library_file": "Recovered_Project.pretty/H3__b5fb1087.kicad_mod",
+      "library_sha256": "12079766a98d2fdd1e4da0f171d03e938d37fe637f23c4ab2a8325e5ab2c9154"
+    },
+    {
+      "uuid": "b7440aca-f388-49db-8dda-a5c6c62c9f9c",
+      "reference": "Annotation4",
+      "original_fpid": "symbols-nsl:pocat_lektron",
+      "recovered_fpid": "Recovered_Project:Annotation4__b7440aca",
+      "schematic_path": "/3a2f3ade-41ae-4a42-9cf0-8a108832f2d0",
+      "library_file": "Recovered_Project.pretty/Annotation4__b7440aca.kicad_mod",
+      "library_sha256": "78cb49b0929639288d688f72153b386aa4aa59b99b95924da9336daa9d81fc5a"
+    },
+    {
+      "uuid": "c1d009b5-0afb-4aba-ac8f-e2979152c947",
+      "reference": "Annotation3",
+      "original_fpid": "symbols-nsl:Snail",
+      "recovered_fpid": "Recovered_Project:Annotation3__c1d009b5",
+      "schematic_path": "/584cb7ae-b154-4781-8ac7-d394bdad83d1",
+      "library_file": "Recovered_Project.pretty/Annotation3__c1d009b5.kicad_mod",
+      "library_sha256": "0d41beb05d895ccdffd1ea4db7289b931690555f372fbba0efc9c66ef27520f6"
+    },
+    {
+      "uuid": "c880f32c-5f9a-43b5-9c84-10aaeca4a182",
+      "reference": "Annotation1",
+      "original_fpid": "symbols-nsl:Bridgemaker",
+      "recovered_fpid": "Recovered_Project:Annotation1__c880f32c",
+      "schematic_path": "/6ef6ead0-ba87-41cd-aba9-4b39bde9b724",
+      "library_file": "Recovered_Project.pretty/Annotation1__c880f32c.kicad_mod",
+      "library_sha256": "b6411ef8997cfdce61c0718a2103f7ea4a607de72a50bd5ab60e0712b153b836"
+    },
+    {
+      "uuid": "2b13e735-831e-4bbd-9eac-c5767176ddf9",
+      "reference": "Annotation2",
+      "original_fpid": "symbols-nsl:NSL_hexagon",
+      "recovered_fpid": "Recovered_Project:Annotation2__2b13e735",
+      "schematic_path": "/59bcefc9-49e7-4044-b103-aadf35424617",
+      "library_file": "Recovered_Project.pretty/Annotation2__2b13e735.kicad_mod",
+      "library_sha256": "545041d2bf1ca686857f1af3859825318e77c460d70c459c3807d7f043f736e1"
+    }
+  ],
+  "schematics": [
+    {
+      "file": "PQ_MagYBoard.kicad_sch",
+      "input_sha256": "0c91415a88c63a1e7c81272c64fe707a33b28155ea660635049e1acb1d261338",
+      "output_sha256": "0c91415a88c63a1e7c81272c64fe707a33b28155ea660635049e1acb1d261338",
+      "updates": [
+        {
+          "reference": "D1",
+          "old_footprint": "Recovered_Project:D1__96abf5d7",
+          "new_footprint": "Recovered_Project:D1__96abf5d7",
+          "status": "updated"
+        },
+        {
+          "reference": "H3",
+          "old_footprint": "Recovered_Project:H3__b5fb1087",
+          "new_footprint": "Recovered_Project:H3__b5fb1087",
+          "status": "updated"
+        },
+        {
+          "reference": "Annotation4",
+          "old_footprint": "Recovered_Project:Annotation4__b7440aca",
+          "new_footprint": "Recovered_Project:Annotation4__b7440aca",
+          "status": "updated"
+        },
+        {
+          "reference": "Annotation3",
+          "old_footprint": "Recovered_Project:Annotation3__c1d009b5",
+          "new_footprint": "Recovered_Project:Annotation3__c1d009b5",
+          "status": "updated"
+        },
+        {
+          "reference": "Annotation2",
+          "old_footprint": "Recovered_Project:Annotation2__2b13e735",
+          "new_footprint": "Recovered_Project:Annotation2__2b13e735",
+          "status": "updated"
+        },
+        {
+          "reference": "H2",
+          "old_footprint": "Recovered_Project:H2__04eba765",
+          "new_footprint": "Recovered_Project:H2__04eba765",
+          "status": "updated"
+        },
+        {
+          "reference": "H4",
+          "old_footprint": "Recovered_Project:H4__a7a81e5c",
+          "new_footprint": "Recovered_Project:H4__a7a81e5c",
+          "status": "updated"
+        },
+        {
+          "reference": "Annotation1",
+          "old_footprint": "Recovered_Project:Annotation1__c880f32c",
+          "new_footprint": "Recovered_Project:Annotation1__c880f32c",
+          "status": "updated"
+        },
+        {
+          "reference": "H5",
+          "old_footprint": "Recovered_Project:H5__5195467b",
+          "new_footprint": "Recovered_Project:H5__5195467b",
+          "status": "updated"
+        },
+        {
+          "reference": "H6",
+          "old_footprint": "Recovered_Project:H6__80f6b20b",
+          "new_footprint": "Recovered_Project:H6__80f6b20b",
+          "status": "updated"
+        },
+        {
+          "reference": "J1",
+          "old_footprint": "Recovered_Project:J1__1c8c80f3",
+          "new_footprint": "Recovered_Project:J1__1c8c80f3",
+          "status": "updated"
+        },
+        {
+          "reference": "H8",
+          "old_footprint": "Recovered_Project:H8__01ccc00b",
+          "new_footprint": "Recovered_Project:H8__01ccc00b",
+          "status": "updated"
+        },
+        {
+          "reference": "H7",
+          "old_footprint": "Recovered_Project:H7__513e248b",
+          "new_footprint": "Recovered_Project:H7__513e248b",
+          "status": "updated"
+        },
+        {
+          "reference": "H1",
+          "old_footprint": "Recovered_Project:H1__4e36dd2d",
+          "new_footprint": "Recovered_Project:H1__4e36dd2d",
+          "status": "updated"
+        }
+      ]
+    }
+  ]
+}

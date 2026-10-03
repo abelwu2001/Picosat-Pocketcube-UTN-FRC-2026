@@ -1,0 +1,242 @@
+(footprint "FUSC3116X70N__F1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SF-1206SP175L-2-A9")
+	(tags "Fuse")
+	(property "Reference" "F1"
+		(at 0 -2.382434 0)
+		(layer "F.SilkS")
+		(uuid "decce824-68be-4dd2-b455-31d408230eb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SF-1206S080-2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8751bc8d-247d-457a-be0d-1738301953ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dff9438-e178-43d7-bf91-09dc1449664b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Surface Mount Fuses 0.8A Slow Blow 1206 SinglFuse"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "548797a8-73f5-425b-8c5b-13be70fad6fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.7"
+		(at 814.084072 612.735132 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d74bab37-57ea-4ec9-b175-a60a683e245e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Bourns"
+		(at 814.084072 612.735132 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7b9b887-3a0e-45f7-9812-3fa16a11c143")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SF-1206S080-2"
+		(at 814.084072 612.735132 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1821308d-458d-48e9-8047-0adb147449f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "652-SF-1206S080-2"
+		(at 814.084072 612.735132 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6625bd5c-5d62-4abd-b67c-7735ed3ffe5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206S080-2?qs=GIQXYiEeHGCINTv668OAKQ%3D%3D"
+		(at 814.084072 612.735132 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35de2e2e-3450-4513-a53a-0a3038658fc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "EGSE.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.675)
+		(end 0 0.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2af65208-4ebe-41d6-8bc6-8a5a4df7fa6c")
+	)
+	(fp_line
+		(start -2.215 -1.09)
+		(end 2.215 -1.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdd9495b-5694-474f-ba3f-1f9acbb18bdb")
+	)
+	(fp_line
+		(start -2.215 1.09)
+		(end -2.215 -1.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5114499-9819-45cb-bb08-1b50d74312b3")
+	)
+	(fp_line
+		(start 2.215 -1.09)
+		(end 2.215 1.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f595bb11-ffd3-4741-be57-f436d9218622")
+	)
+	(fp_line
+		(start 2.215 1.09)
+		(end -2.215 1.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03af012d-c81e-4043-9629-81c732e6f416")
+	)
+	(fp_line
+		(start -1.55 -0.775)
+		(end 1.55 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fabeb7d-45ab-48da-9f7f-2e0a1ee4701b")
+	)
+	(fp_line
+		(start -1.55 0.775)
+		(end -1.55 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6174143-7016-4ce4-adc7-87c03876126b")
+	)
+	(fp_line
+		(start 1.55 -0.775)
+		(end 1.55 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0aeee0db-f270-4347-937f-d8816a372366")
+	)
+	(fp_line
+		(start 1.55 0.775)
+		(end -1.55 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e459286-1fe0-4e2a-b465-ca26644e6ead")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "363af988-012d-4257-9f14-d0c8117460f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.43 0)
+		(size 1.07 1.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ead60c0-e59d-43ab-bf8d-40cc9d4d5357")
+	)
+	(pad "2" smd rect
+		(at 1.43 0)
+		(size 1.07 1.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "846a0490-5907-468c-8659-99c5a69ec6fd")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\lidia\\Documents\\SamacSys_PCB_Library\\KiCad\\SamacSys_Parts.3dshapes\\SF-1206S080-2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

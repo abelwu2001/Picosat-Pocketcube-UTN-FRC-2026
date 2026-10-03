@@ -1,0 +1,418 @@
+(footprint "D5__9ba6cb21"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf")
+	(tags "D_SOD-128")
+	(property "Reference" "D5"
+		(at -3 -2.7068 0)
+		(layer "F.SilkS")
+		(uuid "5c05bbc8-ed25-4895-b30f-217be27e9b2e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "shottky"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "8f7faad3-ee5e-4a64-8656-9da4588311e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "917f3f10-1429-493d-b7ae-3db4b4bea7d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "6834b7c5-164c-40bf-8361-6e5ca6e73f37")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "BOM_LINK" "https://www.mouser.es/ProductDetail/ROHM-Semiconductor/RBS1LAM40ATR?qs=4v%252BiZTmLVHGbkDpKCblbNQ%3D%3D"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "323a3d85-3377-43b9-99b6-477729f2c2db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER" "ROHM Semiconductor"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d6a5c60-563b-4306-bc7e-bebd33511579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_MANUFACTURER PART" "RBS1LAM40ATR"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ef16587-e99b-40e2-9f49-256aff204502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER" "Mouser"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ba07554-f8ed-4e2a-bce8-ed3a80873bd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BOM_SUPPLIER PART" "755-RBS1LAM40ATR"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30d6cef9-0924-48b8-b420-cb789e4a40c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTRIBUTOR" "LCEDA_Lib"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9d0d47f-e5b7-44c7-bc56-71c655dfc6e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer 1" "ROHM Semiconductor"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f7c3e92-2c7f-41ee-bd90-63bf4be1598e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number 1" "RBS1LAM40ATR"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04cdfbb5-4a48-4f46-b11e-5751e1abc0ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICEPRE" "D"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdd254d3-9f3b-47a6-84e8-bf49166360c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SPICESYMBOLNAME" "shottky"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76200888-ba27-40e7-a334-d3b0e3ff63ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier 1" "Mouser"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9b5d447-084a-444c-870c-eafce7f6ddb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number 1" "755-RBS1LAM40ATR"
+		(at 178.775 46.575 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f3fbae1-e5a6-431f-9f01-502827b4a6f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "PQ_EPS.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.16 -1.36)
+		(end -3.16 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce8d2497-72f9-4308-a99f-cdb827c5a993")
+	)
+	(fp_line
+		(start -3.16 -1.36)
+		(end 1.9 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79004625-06ad-4d7a-a7e7-7724d5bdfc4c")
+	)
+	(fp_line
+		(start -3.16 1.36)
+		(end 1.9 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f26ec18d-a45d-4007-a451-c71294a9e2a4")
+	)
+	(fp_line
+		(start -3.15 -1.5)
+		(end -3.15 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13a29a38-fc62-49b3-b2be-2ba4395559e7")
+	)
+	(fp_line
+		(start -3.15 -1.5)
+		(end 3.15 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4d14235-a362-412c-843d-915e792d3dd1")
+	)
+	(fp_line
+		(start 3.15 -1.5)
+		(end 3.15 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3baf6bc2-1fa9-4c97-881d-23e5dfe1f009")
+	)
+	(fp_line
+		(start 3.15 1.5)
+		(end -3.15 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fe2b7f5-c4e8-4cc2-8a65-4a528f079842")
+	)
+	(fp_line
+		(start -1.9 -1.25)
+		(end 1.9 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6701edd-6590-4082-8821-3df08b810c8c")
+	)
+	(fp_line
+		(start -1.9 1.25)
+		(end -1.9 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb632edb-40f9-4deb-ba1c-6d73dfe4e742")
+	)
+	(fp_line
+		(start -0.75 0)
+		(end -0.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b11c5bb-fb9d-44f1-8710-1a6233918e0d")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end -0.35 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c111ee0-fc9b-40ec-b45b-646d5265dfdf")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end -0.35 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68053720-4e64-4763-916d-e1488e9c23ec")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end 0.25 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47e23211-a37d-4d79-bcd3-e1973fc24c80")
+	)
+	(fp_line
+		(start 0.25 -0.4)
+		(end 0.25 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6da1d352-479c-41e5-9aff-4346511b77f0")
+	)
+	(fp_line
+		(start 0.25 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c19fecf6-fb85-4381-b2bf-0f282e039a15")
+	)
+	(fp_line
+		(start 0.25 0.4)
+		(end -0.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c7ddc54-b210-4832-85dd-73a6c3b4a276")
+	)
+	(fp_line
+		(start 1.9 -1.25)
+		(end 1.9 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c178533-56b5-412d-b55a-1bafe73c1c6a")
+	)
+	(fp_line
+		(start 1.9 1.25)
+		(end -1.9 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9dd3f9e-0cd3-423a-b6f3-98ef29e965c6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 3.85 0)
+		(layer "F.Fab")
+		(uuid "708534e5-8bc1-4996-a39c-dfc889d127ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.2 0)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "a4dc5a18-89d1-492c-b9e3-625a0160457d")
+	)
+	(pad "2" smd roundrect
+		(at 2.2 0)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "dabbabb3-950e-4f21-8b83-ef10a6ede84e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_NSL_DIR}/passive-nsl/StepFiles/DO-221AC (SlimSMA).step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

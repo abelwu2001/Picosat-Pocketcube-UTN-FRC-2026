@@ -1,0 +1,280 @@
+(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor")
+(symbol "ISL9120IRTNZ" (in_bom yes) (on_board yes)
+
+      (property "Reference" "IC" (at 8.89 11.43 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "" (at 13.97 -11.43 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "-nsl_power:ISL9120IRTNZ" (at 13.97 -11.43 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 13.97 -11.43 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "ISL9120IRTNZ_1_0"
+
+        (polyline
+
+          (pts
+
+            (xy -15.494 -10.3353)
+
+            (xy -15.494 9.9847)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy -15.494 -10.3353)
+
+            (xy 14.986 -10.3353)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 14.986 9.9847)
+
+            (xy -15.494 9.9847)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (polyline
+
+          (pts
+
+            (xy 14.986 9.9847)
+
+            (xy 14.986 -10.3353)
+
+          )
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 2.54 15.24 270) (length 5.08)
+
+          (name "LX2_1" (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 20.32 -2.54 180) (length 5.08)
+
+          (name "FB" (effects (font (size 1.27 1.27))))
+
+          (number "10" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 20.32 0 180) (length 5.08)
+
+          (name "VOUT" (effects (font (size 1.27 1.27))))
+
+          (number "11" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 20.32 2.54 180) (length 5.08)
+
+          (name "LX2_2" (effects (font (size 1.27 1.27))))
+
+          (number "12" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 20.32 5.08 180) (length 5.08)
+
+          (name "EP" (effects (font (size 1.27 1.27))))
+
+          (number "13" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 0 15.24 270) (length 5.08)
+
+          (name "PGND" (effects (font (size 1.27 1.27))))
+
+          (number "2" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -2.54 15.24 270) (length 5.08)
+
+          (name "LX1_1" (effects (font (size 1.27 1.27))))
+
+          (number "3" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -20.32 2.54 0) (length 5.08)
+
+          (name "LX1_2" (effects (font (size 1.27 1.27))))
+
+          (number "4" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -20.32 0 0) (length 5.08)
+
+          (name "VIN_1" (effects (font (size 1.27 1.27))))
+
+          (number "5" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -20.32 -2.54 0) (length 5.08)
+
+          (name "VIN_2" (effects (font (size 1.27 1.27))))
+
+          (number "6" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -2.54 -15.24 90) (length 5.08)
+
+          (name "BYPS" (effects (font (size 1.27 1.27))))
+
+          (number "7" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 0 -15.24 90) (length 5.08)
+
+          (name "GND" (effects (font (size 1.27 1.27))))
+
+          (number "8" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 2.54 -15.24 90) (length 5.08)
+
+          (name "EN" (effects (font (size 1.27 1.27))))
+
+          (number "9" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+(symbol "SIR424DP" (in_bom yes) (on_board yes)
+
+      (property "Reference" "Q" (at 0 8.89 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Value" "" (at 0 8.89 0)
+
+        (effects (font (size 1.27 1.27)))
+
+      )
+
+      (property "Footprint" "-nsl_power:SIR424DP" (at 0 -8.89 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (property "Datasheet" "" (at 0 8.89 0)
+
+        (effects (font (size 1.27 1.27)) hide)
+
+      )
+
+      (symbol "SIR424DP_1_0"
+
+        (rectangle (start -5.08 6.858) (end 5.08 -6.858)
+
+          (stroke (width 0.254) (type default))
+
+          (fill (type none))
+
+        )
+
+        (pin passive line (at 7.62 -3.81 180) (length 2.54)
+
+          (name "S" (effects (font (size 1.27 1.27))))
+
+          (number "1" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 7.62 -1.27 180) (length 2.54)
+
+          (name "S" (effects (font (size 1.27 1.27))))
+
+          (number "2" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 7.62 1.27 180) (length 2.54)
+
+          (name "S" (effects (font (size 1.27 1.27))))
+
+          (number "3" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at 7.62 3.81 180) (length 2.54)
+
+          (name "G" (effects (font (size 1.27 1.27))))
+
+          (number "4" (effects (font (size 1.27 1.27))))
+
+        )
+
+        (pin passive line (at -7.62 3.81 0) (length 2.54)
+
+          (name "D" (effects (font (size 1.27 1.27))))
+
+          (number "5" (effects (font (size 1.27 1.27))))
+
+        )
+
+      )
+
+    )
+)
