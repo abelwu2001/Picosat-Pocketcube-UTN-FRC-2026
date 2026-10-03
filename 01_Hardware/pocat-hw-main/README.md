@@ -27,7 +27,7 @@ el armado de la plataforma PocketQube.
 | 1 | **PQ_EPS** | Sistema de potencia: recibe energía solar, carga la batería y distribuye las tensiones del satélite. |
 | 1 | **pq_obc_comms** | Computadora principal + comunicaciones por radio con tierra. |
 | 1 | **pq_topboard** | Cara superior estructural e interfaz de la zona del payload. |
-| 1 | **pq_botboard** | Cara inferior; integra celda solar, sensores y un magnetorquer PCB. |
+| 1 | **pq_botboard** | Cara inferior; integra celda solar, sensores y un magnetorquer eje -Y PCB. |
 | 4 | **pq_latboard** | Caras laterales +X, -X, +Z y -Z. Integran celda solar, sensores y magnetorquer; una lleva además la antena COMMS. |
 | 1 | **PQ_MagYBoard** | Magnetorquer interno dedicado al eje +Y. |
 | 1 | **pq_botnotsobot** | Placa mecánica asociada al sliding/deployer y al sistema de despliegue. |
