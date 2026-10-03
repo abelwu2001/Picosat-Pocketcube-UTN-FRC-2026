@@ -16,6 +16,10 @@ el armado de la plataforma PocketQube.
 > la revisión final de PCB antes de comprar componentes.
 
 
+Link de la wiki donde se explica todo sobre el proyecto:
+ 
+>https://wiki.nanosatlab.space/shelves/ieee-open-pocketqube-kit-mFR
+
 # 1. PLACAS PCB
 
 ![Estructura de Placas](../../06_Miscelaneas/imagenes/Estructura-Placas.png)
@@ -49,6 +53,32 @@ como componentes independientes.
 
 ## 1.2 Placa de soporte en tierra
 
+![Estructura de Placas](../../06_Miscelaneas/imagenes/Egse.jpeg)
+
+## Cableado e interconexiones
+
+| ID | From | Num. of cables | Connector | To | Num. of cables | Connector | 
+|---:|---|---:|---|---|---:|---|---:|
+| 1 | Lat +Z | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | 
+| 2 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | 
+| 3 | Lat -Z | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | 
+| 4 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | 
+| 5 | Lat +X | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | 
+| 6 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | 
+| 7 | Lat -X | 10 | PicoBlade | PCB Connector | 10 | PicoBlade | 
+| 8 | PCB Connector | 10 | PicoBlade | ADCS | 10 | PicoClasp | 
+| 9 | Battery | 2 | PicoBlade | - | - | - | 
+| 10 | PCB Connector | 2 | PicoBlade | Bottom Board | 2 | PicoBlade | 
+| 11 | Battery Heater & NTC | 3 | PicoClasp | - | - | - | 
+| 12 | PCB Connector | 3 | PicoClasp | ADCS | 3 | PicoClasp | 
+| 13 | Umbilical | 8 | PicoBlade | PCB Connector | 8 | PicoBlade | 
+| 14 | Bottom Board | 15 | PicoBlade | PCB Connector | 15 | PicoBlade | 
+| 15 | PCB Connector | 15 | PicoBlade | ADCS | 15 | PicoClasp | 
+| 16 | Top Board | 9 | PicoBlade | PCB Connector | 9 | PicoBlade | 
+| 17 | PCB Connector | 9 | PicoBlade | ADCS | 9 | PicoClasp | 
+
+
+
 | Cantidad | Placa | Función |
 |---:|---|---|
 | 1 | pq_egse | Electrical Ground Support Equipment |
@@ -81,6 +111,8 @@ indicada en la página de Assembly de la Wiki.
 
 
 # 3. CELDAS SOLARES
+
+![Estructura de Placas](../../06_Miscelaneas/imagenes/solares.png)
 
 Modelo indicado:
 
