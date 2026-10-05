@@ -20,6 +20,10 @@ Link de la wiki donde se explica todo sobre el proyecto:
  
 >https://wiki.nanosatlab.space/shelves/ieee-open-pocketqube-kit-mFR
 
+Link BOM final
+
+>https://docs.google.com/spreadsheets/d/18evn2hEh3wvYzuJMzKZhzkFULgpysAK2np7i2tM_1j0/edit?gid=1567048071#gid=1567048071
+
 # 1. PLACAS PCB
 
 ![Estructura de Placas](../../06_Miscelaneas/imagenes/Estructura-Placas.png)
